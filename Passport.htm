@@ -1,0 +1,3327 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Passport.files/filelist.xml">
+<link rel=Edit-Time-Data href="Passport.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>**IP (Internet Protocol) - протокол сетевого уровня, используемый в
+Интернете и других компью¬терных сетях</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>bistrova</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Vladimir V. Prokhorov</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>4</o:TotalTime>
+  <o:LastPrinted>2005-11-29T09:56:00Z</o:LastPrinted>
+  <o:Created>2006-10-21T08:46:00Z</o:Created>
+  <o:LastSaved>2006-10-21T08:46:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1707</o:Words>
+  <o:Characters>9734</o:Characters>
+  <o:Company>Ekaterinburg</o:Company>
+  <o:Lines>81</o:Lines>
+  <o:Paragraphs>22</o:Paragraphs>
+  <o:CharactersWithSpaces>11419</o:CharactersWithSpaces>
+  <o:Version>11.5703</o:Version>
+ </o:DocumentProperties>
+ <o:CustomDocumentProperties>
+  <o:_AdHocReviewCycleID dt:dt="float">758324444</o:_AdHocReviewCycleID>
+  <o:_EmailSubject dt:dt="string">Specification.doc</o:_EmailSubject>
+  <o:_AuthorEmail dt:dt="string">vpro@convex.ru</o:_AuthorEmail>
+  <o:_AuthorEmailDisplayName dt:dt="string">vpro</o:_AuthorEmailDisplayName>
+  <o:_NewReviewCycle dt:dt="string"></o:_NewReviewCycle>
+  <o:_PreviousAdHocReviewCycleID dt:dt="float">-504714530</o:_PreviousAdHocReviewCycleID>
+  <o:_ReviewingToolsShownOnce dt:dt="string"></o:_ReviewingToolsShownOnce>
+ </o:CustomDocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:AutoHyphenation/>
+  <w:HyphenationZone>17</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>6 пт</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>6 пт</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>3</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotShadeFormData/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+   <w:UseWord97LineBreakingRules/>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:"Bauhaus 93";
+	panose-1:4 3 9 5 2 11 2 2 12 2;
+	mso-font-charset:0;
+	mso-generic-font-family:decorative;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"Arial Black";
+	panose-1:2 11 10 4 2 1 2 2 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-hyphenate:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Arial;
+	mso-font-kerning:0pt;}
+h2
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal;
+	mso-bidi-font-weight:bold;
+	mso-bidi-font-style:italic;
+	text-decoration:underline;
+	text-underline:single;}
+h3
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:1.0cm;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+h4
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-indent:0cm;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	mso-list:l17 level4 lfo14;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Arial;}
+h5
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;
+	mso-pagination:none;
+	mso-outline-level:5;
+	mso-list:l17 level5 lfo14;
+	tab-stops:list 50.4pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:13.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h6
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;
+	mso-pagination:none;
+	mso-outline-level:6;
+	mso-list:l17 level6 lfo14;
+	tab-stops:list 57.6pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;
+	mso-pagination:none;
+	mso-outline-level:7;
+	mso-list:l17 level7 lfo14;
+	tab-stops:list 64.8pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;
+	mso-pagination:none;
+	mso-outline-level:8;
+	mso-list:l17 level8 lfo14;
+	tab-stops:list 72.0pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;
+	mso-pagination:none;
+	mso-outline-level:9;
+	mso-list:l17 level9 lfo14;
+	tab-stops:list 79.2pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 233.85pt right 467.75pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 233.85pt right 467.75pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+p.Body, li.Body, div.Body
+	{mso-style-name:Body;
+	mso-style-update:auto;
+	mso-style-link:"Body Знак";
+	margin-top:6.0pt;
+	margin-right:.85pt;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.Body0
+	{mso-style-name:"Body Знак";
+	mso-style-locked:yes;
+	mso-style-link:Body;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ansi-language:RU;
+	mso-fareast-language:RU;
+	mso-bidi-language:AR-SA;}
+p.Bulleted, li.Bulleted, div.Bulleted
+	{mso-style-name:Bulleted;
+	mso-style-update:auto;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:1.0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-14.15pt;
+	mso-pagination:widow-orphan;
+	mso-list:l21 level1 lfo36;
+	tab-stops:list 1.0cm;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	letter-spacing:.05pt;}
+p.Title, li.Title, div.Title
+	{mso-style-name:Title;
+	mso-style-update:auto;
+	mso-style-parent:"";
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:.3pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	background:white;
+	font-size:48.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;
+	mso-bidi-font-style:italic;}
+span.SystemName
+	{mso-style-name:SystemName;
+	font-family:"Bauhaus 93";
+	mso-ascii-font-family:"Bauhaus 93";
+	mso-hansi-font-family:"Bauhaus 93";
+	color:blue;}
+p.BigTitle, li.BigTitle, div.BigTitle
+	{mso-style-name:BigTitle;
+	mso-style-update:auto;
+	mso-style-parent:"";
+	mso-style-next:Body;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:60.0pt;
+	font-family:"Bauhaus 93";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:blue;
+	mso-font-kerning:14.0pt;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Bulleted1, li.Bulleted1, div.Bulleted1
+	{mso-style-name:Bulleted1;
+	mso-style-parent:Bulleted;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:1.0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-14.15pt;
+	mso-pagination:widow-orphan;
+	mso-list:l21 level1 lfo36;
+	tab-stops:list 1.0cm;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	letter-spacing:.05pt;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("Passport.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("Passport.files/header.htm") fcs;
+	mso-endnote-separator:url("Passport.files/header.htm") es;
+	mso-endnote-continuation-separator:url("Passport.files/header.htm") ecs;}
+@page Section1
+	{size:595.45pt 841.7pt;
+	margin:2.0cm 2.0cm 2.0cm 2.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-title-page:yes;
+	mso-header:url("Passport.files/header.htm") h1;
+	mso-even-footer:url("Passport.files/header.htm") ef1;
+	mso-footer:url("Passport.files/header.htm") f1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:-2;
+	mso-list-type:simple;
+	mso-list-template-ids:-1607857302;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:*;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1
+	{mso-list-id:49889011;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1069072780 68747279 68747289 68747291 68747279 68747289 68747291 68747279 68747289 68747291;}
+@list l1:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:167913346;
+	mso-list-template-ids:-1488845910;}
+@list l2:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l2:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+@list l2:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l2:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l2:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l2:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l2:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l2:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l2:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l3
+	{mso-list-id:186599911;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1712765734 -1349326596 68747267 68747269 68747265 68747267 68747269 68747265 68747267 68747269;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:70.9pt;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-14.2pt;
+	font-family:Symbol;}
+@list l4
+	{mso-list-id:250629945;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-166547182 1323086030 -1454068090 68747269 68747265 68747267 68747269 68747265 68747267 68747269;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0cm;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-14.15pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:51.05pt;
+	mso-level-number-position:left;
+	margin-left:51.05pt;
+	text-indent:-8.5pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l5
+	{mso-list-id:373048129;
+	mso-list-template-ids:-1535102384;}
+@list l5:level1
+	{mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l5:level2
+	{mso-level-text:"%2\.%1";
+	mso-level-tab-stop:2.0cm;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l5:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l5:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l5:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l5:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l5:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l5:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l5:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l6
+	{mso-list-id:592781772;
+	mso-list-template-ids:981512958;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:42.55pt;
+	mso-level-number-position:left;
+	margin-left:42.55pt;
+	text-indent:-14.2pt;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:127.8pt;
+	mso-level-number-position:left;
+	margin-left:127.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:163.8pt;
+	mso-level-number-position:left;
+	margin-left:163.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l6:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:199.8pt;
+	mso-level-number-position:left;
+	margin-left:199.8pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:235.8pt;
+	mso-level-number-position:left;
+	margin-left:235.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:271.8pt;
+	mso-level-number-position:left;
+	margin-left:271.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l6:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:307.8pt;
+	mso-level-number-position:left;
+	margin-left:307.8pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:343.8pt;
+	mso-level-number-position:left;
+	margin-left:343.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:379.8pt;
+	mso-level-number-position:left;
+	margin-left:379.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l7
+	{mso-list-id:710694439;
+	mso-list-template-ids:-1568632380;}
+@list l7:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l7:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l7:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l7:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l7:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l7:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l7:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l7:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l7:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l8
+	{mso-list-id:719213336;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-619279790 723803748 68747267 68747269 68747265 68747267 68747269 68747265 68747267 68747269;}
+@list l8:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:42.55pt;
+	mso-level-number-position:left;
+	margin-left:42.55pt;
+	text-indent:-14.2pt;
+	font-family:Symbol;}
+@list l9
+	{mso-list-id:721683599;
+	mso-list-template-ids:-1345392674;}
+@list l9:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l9:level2
+	{mso-level-text:"%2\.%1";
+	mso-level-tab-stop:2.0cm;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l9:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l9:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l9:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l9:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l9:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l9:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l9:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l10
+	{mso-list-id:751510067;
+	mso-list-template-ids:683951418;}
+@list l10:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l10:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l10:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l10:level4
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l10:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l10:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l10:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l10:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l10:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l11
+	{mso-list-id:794449255;
+	mso-list-template-ids:748947104;}
+@list l11:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l11:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:42.55pt;
+	mso-level-number-position:left;
+	margin-left:42.55pt;
+	text-indent:-14.2pt;
+	font-family:Symbol;}
+@list l11:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0BE;
+	mso-level-tab-stop:70.9pt;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-19.85pt;
+	font-family:Symbol;}
+@list l11:level4
+	{mso-level-text:"%1\.%2\.%3\.%4\.";
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:86.4pt;
+	text-indent:-32.4pt;}
+@list l11:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.";
+	mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:111.6pt;
+	text-indent:-39.6pt;}
+@list l11:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.";
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:136.8pt;
+	text-indent:-46.8pt;}
+@list l11:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.";
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-54.0pt;}
+@list l11:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.";
+	mso-level-tab-stop:198.0pt;
+	mso-level-number-position:left;
+	margin-left:187.2pt;
+	text-indent:-61.2pt;}
+@list l11:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:234.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-72.0pt;}
+@list l12
+	{mso-list-id:1065177944;
+	mso-list-template-ids:1085279796;}
+@list l12:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:none;
+	text-underline:none;}
+@list l12:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+@list l12:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l12:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l12:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l12:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l12:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l12:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l12:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l13
+	{mso-list-id:1162425749;
+	mso-list-template-ids:100461292;}
+@list l13:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l13:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l13:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l13:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l13:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l13:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l13:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l13:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l13:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l14
+	{mso-list-id:1184785380;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-333908184 68747265 68747267 68747269 68747265 68747267 68747269 68747265 68747267 68747269;}
+@list l14:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:64.35pt;
+	mso-level-number-position:left;
+	margin-left:64.35pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l15
+	{mso-list-id:1219978304;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1558759444 68747279 68747289 68747291 68747279 68747289 68747291 68747279 68747289 68747291;}
+@list l15:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16
+	{mso-list-id:1231231531;
+	mso-list-template-ids:1766208782;}
+@list l16:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:70.9pt;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-14.2pt;
+	font-family:Symbol;}
+@list l16:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:127.8pt;
+	mso-level-number-position:left;
+	margin-left:127.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l16:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:163.8pt;
+	mso-level-number-position:left;
+	margin-left:163.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l16:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:199.8pt;
+	mso-level-number-position:left;
+	margin-left:199.8pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l16:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:235.8pt;
+	mso-level-number-position:left;
+	margin-left:235.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l16:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:271.8pt;
+	mso-level-number-position:left;
+	margin-left:271.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l16:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:307.8pt;
+	mso-level-number-position:left;
+	margin-left:307.8pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l16:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:343.8pt;
+	mso-level-number-position:left;
+	margin-left:343.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l16:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:379.8pt;
+	mso-level-number-position:left;
+	margin-left:379.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l17
+	{mso-list-id:1341734261;
+	mso-list-template-ids:-1433341058;}
+@list l17:level1
+	{mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l17:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l17:level3
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l17:level4
+	{mso-level-style-link:"Заголовок 4";
+	mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l17:level5
+	{mso-level-style-link:"Заголовок 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l17:level6
+	{mso-level-style-link:"Заголовок 6";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l17:level7
+	{mso-level-style-link:"Заголовок 7";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l17:level8
+	{mso-level-style-link:"Заголовок 8";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l17:level9
+	{mso-level-style-link:"Заголовок 9";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l18
+	{mso-list-id:1359349894;
+	mso-list-template-ids:-538950094;}
+@list l18:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l18:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l18:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l18:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l18:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l18:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l18:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l18:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l18:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l19
+	{mso-list-id:1375957913;
+	mso-list-template-ids:-2090059714;}
+@list l19:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l19:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l19:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l19:level4
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l19:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l19:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l19:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l19:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l19:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l20
+	{mso-list-id:1467241801;
+	mso-list-template-ids:451985534;}
+@list l20:level1
+	{mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l20:level2
+	{mso-level-number-format:none;
+	mso-level-text:"%1Ответ\:";
+	mso-level-tab-stop:2.0cm;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l20:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l20:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l20:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l20:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l20:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l20:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l20:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l21
+	{mso-list-id:1488669746;
+	mso-list-type:hybrid;
+	mso-list-template-ids:404115562 1323086030 68747267 68747269 68747265 68747267 68747269 68747265 68747267 68747269;}
+@list l21:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Bulleted;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0cm;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-14.15pt;
+	font-family:Symbol;}
+@list l21:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:127.8pt;
+	mso-level-number-position:left;
+	margin-left:127.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l22
+	{mso-list-id:1559900716;
+	mso-list-template-ids:404115562;}
+@list l22:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:1.0cm;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-14.15pt;
+	font-family:Symbol;}
+@list l22:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:127.8pt;
+	mso-level-number-position:left;
+	margin-left:127.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l22:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:163.8pt;
+	mso-level-number-position:left;
+	margin-left:163.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l22:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:199.8pt;
+	mso-level-number-position:left;
+	margin-left:199.8pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l22:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:235.8pt;
+	mso-level-number-position:left;
+	margin-left:235.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l22:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:271.8pt;
+	mso-level-number-position:left;
+	margin-left:271.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l22:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:307.8pt;
+	mso-level-number-position:left;
+	margin-left:307.8pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l22:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:343.8pt;
+	mso-level-number-position:left;
+	margin-left:343.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l22:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:379.8pt;
+	mso-level-number-position:left;
+	margin-left:379.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l23
+	{mso-list-id:1580364359;
+	mso-list-template-ids:492470356;}
+@list l23:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l23:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:2.0cm;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l23:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l23:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l23:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l23:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l23:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l23:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l23:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l24
+	{mso-list-id:1581595757;
+	mso-list-template-ids:221567134;}
+@list l24:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:none;
+	text-underline:none;}
+@list l24:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+@list l24:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l24:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l24:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l24:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l24:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l24:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l24:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l25
+	{mso-list-id:1704014114;
+	mso-list-template-ids:-1770068688;}
+@list l25:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l25:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:42.55pt;
+	mso-level-number-position:left;
+	margin-left:42.55pt;
+	text-indent:-14.2pt;
+	font-family:Symbol;}
+@list l25:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0BE;
+	mso-level-tab-stop:70.9pt;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-19.85pt;
+	font-family:Symbol;}
+@list l25:level4
+	{mso-level-text:"%1\.%2\.%3\.%4\.";
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:86.4pt;
+	text-indent:-32.4pt;}
+@list l25:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.";
+	mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:111.6pt;
+	text-indent:-39.6pt;}
+@list l25:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.";
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:136.8pt;
+	text-indent:-46.8pt;}
+@list l25:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.";
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-54.0pt;}
+@list l25:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.";
+	mso-level-tab-stop:198.0pt;
+	mso-level-number-position:left;
+	margin-left:187.2pt;
+	text-indent:-61.2pt;}
+@list l25:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:234.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-72.0pt;}
+@list l26
+	{mso-list-id:1714571749;
+	mso-list-template-ids:2005415820;}
+@list l26:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l26:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l26:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l26:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l26:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l26:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l26:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l26:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l26:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l27
+	{mso-list-id:1738552943;
+	mso-list-template-ids:-1764582208;}
+@list l27:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l27:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l27:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l27:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l27:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l27:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l27:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l27:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l27:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l28
+	{mso-list-id:1837572568;
+	mso-list-template-ids:-2075484188;}
+@list l28:level1
+	{mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l28:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l28:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l28:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l28:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l28:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l28:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l28:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l28:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l29
+	{mso-list-id:1866213398;
+	mso-list-template-ids:1469190380;}
+@list l29:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:112.5pt;
+	mso-level-number-position:left;
+	margin-left:112.5pt;
+	text-indent:-14.15pt;
+	font-family:Symbol;}
+@list l29:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:127.8pt;
+	mso-level-number-position:left;
+	margin-left:127.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l29:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:163.8pt;
+	mso-level-number-position:left;
+	margin-left:163.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l29:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:199.8pt;
+	mso-level-number-position:left;
+	margin-left:199.8pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l29:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:235.8pt;
+	mso-level-number-position:left;
+	margin-left:235.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l29:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:271.8pt;
+	mso-level-number-position:left;
+	margin-left:271.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l29:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:307.8pt;
+	mso-level-number-position:left;
+	margin-left:307.8pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l29:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:343.8pt;
+	mso-level-number-position:left;
+	margin-left:343.8pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l29:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:379.8pt;
+	mso-level-number-position:left;
+	margin-left:379.8pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l30
+	{mso-list-id:1963687161;
+	mso-list-template-ids:-538950094;}
+@list l30:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l30:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l30:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l30:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l30:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l30:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l30:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l30:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l30:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l31
+	{mso-list-id:2017608808;
+	mso-list-type:hybrid;
+	mso-list-template-ids:400037122 -1415528396 68747267 68747269 68747265 68747267 68747269 68747265 68747267 68747269;}
+@list l31:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:112.5pt;
+	mso-level-number-position:left;
+	margin-left:112.5pt;
+	text-indent:-14.15pt;
+	font-family:Symbol;}
+@list l32
+	{mso-list-id:2031451220;
+	mso-list-template-ids:91671662;}
+@list l32:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l32:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l32:level3
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l32:level4
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l32:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l32:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l32:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l32:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l32:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l0:level1 lfo1
+	{mso-level-start-at:65535;
+	mso-level-numbering:continue;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:18.9pt;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;}
+@list l0:level1 lfo2
+	{mso-level-start-at:65535;
+	mso-level-numbering:continue;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:17.7pt;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;}
+@list l0:level1 lfo3
+	{mso-level-start-at:65535;
+	mso-level-numbering:continue;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:18.0pt;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;}
+@list l0:level1 lfo4
+	{mso-level-start-at:65535;
+	mso-level-numbering:continue;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:18.3pt;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=RU link=blue vlink=purple style='tab-interval:36.0pt;text-justify-trim:
+punctuation'>
+
+<div class=Section1>
+
+<p class=MsoNormal><!--[if gte vml 1]><v:group id="_x0000_s1026" style='position:absolute;
+ margin-left:153.85pt;margin-top:0;width:181pt;height:45.25pt;z-index:1'
+ coordorigin="1716,165" coordsize="9177,2166">
+ <v:shape id="_x0000_s1027" style='position:absolute;left:8670;top:450;width:2223;
+  height:1824' coordsize="2223,1824" path="m855,1824l,1824,1083,,2223,228,1938,969r-627,114l2109,1824r-684,l855,1026r,798xe"
+  fillcolor="#36f">
+  <v:path arrowok="t"/>
+ </v:shape><v:shape id="_x0000_s1028" style='position:absolute;left:7302;top:564;
+  width:2223;height:1596' coordsize="2223,1596" path="m228,l2223,,1254,1596,114,1140,,513,228,xe"
+  fillcolor="#36f">
+  <v:path arrowok="t"/>
+ </v:shape><v:shape id="_x0000_s1029" style='position:absolute;left:5022;top:450;
+  width:969;height:1824' coordsize="969,1824" path="m627,627l627,,969,399r,1425l114,1824,,1710,,1026,627,627xe"
+  fillcolor="#36f">
+  <v:path arrowok="t"/>
+ </v:shape><v:shape id="_x0000_s1030" style='position:absolute;left:1716;top:450;
+  width:3876;height:1824' coordsize="3876,1824" path="m,l1482,r456,1140l2565,,3876,,1938,1824,,xe"
+  fillcolor="#36f">
+  <v:path arrowok="t"/>
+ </v:shape><v:shape id="_x0000_s1031" style='position:absolute;left:3825;top:1590;
+  width:1083;height:684' coordsize="1083,684" path="m,684l741,r342,l1083,684,,684xe"
+  fillcolor="#36f">
+  <v:path arrowok="t"/>
+ </v:shape><v:shape id="_x0000_s1032" style='position:absolute;left:4680;top:1248;
+  width:228;height:228;mso-position-horizontal:absolute;
+  mso-position-vertical:absolute' coordsize="228,228" path="m,228l228,r,228l,228xe"
+  fillcolor="#36f">
+  <v:path arrowok="t"/>
+ </v:shape><v:shape id="_x0000_s1033" style='position:absolute;left:5364;top:1533;
+  width:285;height:456' coordsize="285,456" path="m,171l285,r,456l,456,,171xe">
+  <v:path arrowok="t"/>
+ </v:shape><v:rect id="_x0000_s1034" style='position:absolute;left:6162;top:849;
+  width:513;height:1482' fillcolor="red"/>
+ <v:oval id="_x0000_s1035" style='position:absolute;left:6162;top:165;width:513;
+  height:513' fillcolor="red"/>
+ <v:shape id="_x0000_s1036" style='position:absolute;left:6789;top:450;width:1710;
+  height:1824' coordsize="1710,1824" path="m684,l342,627r114,684l1710,1824,,1824,,399,684,xe"
+  fillcolor="#36f">
+  <v:path arrowok="t"/>
+ </v:shape><v:shape id="_x0000_s1037" style='position:absolute;left:7758;top:963;
+  width:969;height:684' coordsize="969,684" path="m114,l969,,627,684,57,456,,228,114,xe">
+  <v:path arrowok="t"/>
+ </v:shape><v:shape id="_x0000_s1038" style='position:absolute;left:9924;top:849;
+  width:456;height:228' coordsize="456,228" path="m,228l114,,456,114,399,228,,228xe">
+  <v:path arrowok="t"/>
+ </v:shape></v:group><![endif]--><![if !vml]><span style='mso-ignore:vglayout;
+position:relative;z-index:1;left:203px;top:-1px;width:245px;height:62px'><img
+width=245 height=62 src="Passport.files/image001.gif" v:shapes="_x0000_s1026 _x0000_s1027 _x0000_s1028 _x0000_s1029 _x0000_s1030 _x0000_s1031 _x0000_s1032 _x0000_s1033 _x0000_s1034 _x0000_s1035 _x0000_s1036 _x0000_s1037 _x0000_s1038"></span><![endif]><span
+lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<br style='mso-ignore:vglayout' clear=ALL>
+
+<p class=Title style='margin-top:200.0pt;margin-right:0cm;margin-bottom:200.0pt;
+margin-left:.3pt'><span style='font-size:28.0pt'>Технический паспорт <br>
+видео-интернет-коммуникатора<br>
+</span><a name="Название_системы"><span class=SystemName><span
+style='font-size:28.0pt'>«Vidico</span></span></a><span style='mso-bookmark:
+Название_системы'><span class=SystemName><span lang=EN-US style='font-size:
+28.0pt;mso-ansi-language:EN-US'>R</span></span></span><span style='mso-bookmark:
+Название_системы'><span class=SystemName><span style='font-size:28.0pt'>»</span></span></span><span
+class=SystemName><span style='font-size:28.0pt'><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=right style='margin-left:141.6pt;text-align:right;
+text-indent:35.4pt'><span lang=EN-US style='font-size:14.0pt;mso-ansi-language:
+EN-US'><a href="http://www.vidicor.ru/Passport.doc">http<span lang=RU
+style='mso-ansi-language:RU'>://</span>www<span lang=RU style='mso-ansi-language:
+RU'>.</span>vidicor<span lang=RU style='mso-ansi-language:RU'>.</span>ru<span
+lang=RU style='mso-ansi-language:RU'>/</span>Passport<span lang=RU
+style='mso-ansi-language:RU'>.</span>doc</a></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:14.0pt'>ООО НПЦ «Vidicor Ltd.» 2006<o:p></o:p></span></p>
+
+<b><span style='font-size:12.0pt;font-family:Arial;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:RU;mso-fareast-language:RU;mso-bidi-language:
+AR-SA'><br clear=all style='page-break-before:always'>
+</span></b>
+
+<h1>Система <span class=SystemName><span style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+</xml><![endif]--></span></span></h1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="94%"
+ style='width:94.98%;mso-cellspacing:0cm;border:solid windowtext 1.0pt;
+ mso-border-alt:solid windowtext .75pt;mso-padding-alt:1.2pt 1.2pt 1.2pt 1.2pt;
+ mso-border-insideh:.75pt solid windowtext;mso-border-insidev:.75pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Области применения<span lang=EN-US style='color:#333333;
+  mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Bulleted><![if !supportLists]><span style='mso-bidi-font-size:12.0pt;
+  font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'><span style='mso-list:
+  Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='mso-bidi-font-size:12.0pt'>Персональная
+  интернет<span style='mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>-видеотелефония
+  (<i>точка</i></span><i> </i><span style='mso-bidi-font-weight:bold;
+  mso-bidi-font-style:italic'>&#8596; <i>точка</i>: терминал </span></span><span
+  class=SystemName><span style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span></span><span style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'> &#8596;</span><span
+  class=SystemName> </span><span style='mso-bidi-font-size:12.0pt;mso-bidi-font-weight:
+  bold;mso-bidi-font-style:italic'>терминал </span><span class=SystemName><span
+  style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span></span><span style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>);<o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>многоточечная видеоконференция (<i><span
+  style='mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold'>многоточка</span></i><i><span
+  style='mso-bidi-font-size:12.0pt'> </span></i><span style='mso-bidi-font-size:
+  12.0pt;mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>&#8596; <i>многоточка</i>:
+  терминалы </span><span class=SystemName><span style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span></span><span style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'> &#8596;</span><span
+  class=SystemName> </span><span style='mso-bidi-font-size:12.0pt;mso-bidi-font-weight:
+  bold;mso-bidi-font-style:italic'>терминалы </span><span class=SystemName><span
+  style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span></span>);</p>
+  <p class=Bulleted><![if !supportLists]><span style='mso-bidi-font-size:12.0pt;
+  font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>вещательные видео-аудио
+  спутниковые и интернет-трансляции</span><span style='mso-bidi-font-size:12.0pt'>
+  (<span style='mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>«стрим-сервер»,
+  </span><i>точка </i><span style='mso-bidi-font-weight:bold;mso-bidi-font-style:
+  italic'>&#8594; </span><i>многоточка</i><span style='mso-bidi-font-style:
+  italic'>: <span style='mso-bidi-font-weight:bold'>терминал </span></span></span><span
+  class=SystemName><span style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span> </span><span style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>&#8594; </span><span
+  lang=EN-US style='mso-bidi-font-size:12.0pt;mso-ansi-language:EN-US;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>PCs</span><span
+  style='mso-bidi-font-size:12.0pt;mso-bidi-font-weight:bold;mso-bidi-font-style:
+  italic'>, терминал </span><span class=SystemName><span style='mso-field-code:
+  " REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span> </span><span style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>&#8594;</span><span
+  class=SystemName> </span><span style='mso-bidi-font-size:12.0pt;mso-bidi-font-weight:
+  bold;mso-bidi-font-style:italic'>терминал </span><span class=SystemName><span
+  style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span></span><span style='mso-bidi-font-size:12.0pt'>);<o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видеомосты (<i><span style='mso-bidi-font-size:
+  12.0pt;mso-bidi-font-weight:bold'>точка</span></i><i><span style='mso-bidi-font-size:
+  12.0pt;mso-ansi-language:EN-US'> </span></i><span style='mso-bidi-font-size:
+  12.0pt;mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>&#8596;</span><span
+  style='mso-bidi-font-size:12.0pt;mso-ansi-language:EN-US;mso-bidi-font-weight:
+  bold;mso-bidi-font-style:italic'> </span><i><span style='mso-bidi-font-size:
+  12.0pt;mso-bidi-font-weight:bold'>точка</span></i><span style='mso-bidi-font-size:
+  12.0pt;mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>)</span>;</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видео<span style='mso-bidi-font-weight:bold'>-аудио
+  наблюдение</span> (<i style='mso-bidi-font-style:normal'>многоточка </i><span
+  style='mso-bidi-font-weight:bold'>&#8594; </span><i style='mso-bidi-font-style:
+  normal'>точка</i>);</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видео-аудио оповещение (<i style='mso-bidi-font-style:
+  normal'>точка </i>&#8594; <i style='mso-bidi-font-style:normal'>многоточка</i>);</p>
+  <p class=Body>Просмотр вещательной трансляции и сеанса конференц-связи
+  осуществляется с помощью стандартного офисного компьютера под <span
+  lang=EN-US style='mso-ansi-language:EN-US'>MS</span><span lang=EN-US> </span><span
+  lang=EN-US style='mso-ansi-language:EN-US'>Windows</span>.</p>
+  <p class=Body>В конференции наряду с терминалами <span class=SystemName><span
+  style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span></span> может участвовать и оборудование других
+  производителей </p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Компоненты системы и их функции<span style='color:#333333'><o:p></o:p></span></p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <h2>Видео-интернет-коммуникатор</h2>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>прямая персональная видеотелефонная связь с
+  другим терминалом, видеомост,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>терминал видеоконференции,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>сервер интернет-трансляции на веб-сайт, точка
+  видеонаблюдения.</p>
+  <p class=Body>Обеспечивается оконная и полноэкранная демонстрация видео на
+  одном или нескольких телевизионных и компьютерных мониторах.</p>
+  <p class=Body>Количества терминалов в системе не ограничивается</p>
+  <h2>Пульт председательствующего</h2>
+  <p class=Bulleted><![if !supportLists]><span lang=EN-US style='font-family:
+  Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-ansi-language:
+  EN-US'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>выбор конференции, <span lang=EN-US
+  style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span lang=EN-US style='font-family:
+  Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-ansi-language:
+  EN-US'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>выбор приглашаемых участников,<span
+  lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>вызов участников,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>определение участников, которым
+  предоставляется слово и которые будут видны на экранах всех участников,</p>
+  <p class=Body>Выполнение данных функций выполняется с интуитивно понятным
+  интерфейсом с применением сенсорного экрана или графического планшета.</p>
+  <p class=Body>Количество дублирующих пультов председательствующего не ограничено.</p>
+  <h2>Терминал просмотра зрителем</h2>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>выбор канала трансляции с веб-сайта,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>просмотр прямой трансляции с веб-сайта,</p>
+  <p class=Body>Просмотр возможен на любом компьютере под <span lang=EN-US
+  style='mso-ansi-language:EN-US'>Windows</span><span lang=EN-US> </span><span
+  lang=EN-US style='mso-ansi-language:EN-US'>XP</span> (и выше), не требует
+  ручной установки на этот компьютер дополнительных программных средств.<span
+  style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<h1>Основные характеристики видео-интернет-коммуникатора <span
+class=SystemName><span style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+</xml><![endif]--></span></span></h1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="94%"
+ style='width:94.98%;mso-cellspacing:0cm;border:solid windowtext 1.0pt;
+ mso-border-alt:solid windowtext .75pt;mso-padding-alt:1.2pt 1.2pt 1.2pt 1.2pt;
+ mso-border-insideh:.75pt solid windowtext;mso-border-insidev:.75pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Применение<span lang=EN-US style='color:#333333;mso-ansi-language:
+  EN-US'><o:p></o:p></span></p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Bulleted><![if !supportLists]><span style='mso-bidi-font-size:12.0pt;
+  font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'><span style='mso-list:
+  Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='mso-bidi-font-size:12.0pt'>Персональная
+  интернет<span style='mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>-видеотелефония;<o:p></o:p></span></span></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>многоточечная видеоконференция – совместно с
+  пультом председательствующего;</p>
+  <p class=Bulleted><![if !supportLists]><span style='mso-bidi-font-size:12.0pt;
+  font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='mso-bidi-font-size:12.0pt;
+  mso-bidi-font-weight:bold;mso-bidi-font-style:italic'>вещательные видео-аудио
+  спутниковые и интернет-трансляции</span><span style='mso-bidi-font-size:12.0pt'>);<o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видеомосты;</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видео<span style='mso-bidi-font-weight:bold'>-аудио
+  наблюдение</span>;</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видео-аудио оповещение;</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Поддерживаемые аудиостандарты</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Звук – от качества телефонной связи (моно, 300..3400 Гц) до <span
+  lang=EN-US style='mso-ansi-language:EN-US'>HiFi</span> (стерео, 20..20000Гц);
+  </p>
+  <p class=Body>К аудиооборудованию – аналоговые интерфейсы RCA стерео,
+  цифровые интерфейсы IEEE 1394, <span lang=EN-US style='mso-ansi-language:
+  EN-US'>USB</span>2.0</p>
+  <p class=Body>От аудиооборудования – аналоговые интерфейсы RCA, цифровые
+  интерфейсы IEEE 1394, <span lang=EN-US style='mso-ansi-language:EN-US'>USB</span>2.0,
+  к телефонам из стандартного комплекта поставки – <span lang=EN-US
+  style='mso-ansi-language:EN-US'>RJ</span>-11<span style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Поддерживаемые видеостандарты</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Видеосистемы – PAL, <span lang=EN-US style='mso-ansi-language:
+  EN-US'>SECAM</span>, <span lang=EN-US style='mso-ansi-language:EN-US'>NTSC</span></p>
+  <p class=Body>Интерфейсы к видеооборудованию – аналоговые <span lang=EN-US
+  style='mso-ansi-language:EN-US'>S</span>-<span lang=EN-US style='mso-ansi-language:
+  EN-US'>Video</span>, <span lang=EN-US style='mso-ansi-language:EN-US'>RCA</span>,
+  <span lang=EN-US style='mso-ansi-language:EN-US'>SVGA</span>, цифровые <span
+  lang=EN-US style='mso-ansi-language:EN-US'>DVI</span>, IEEE 1394</p>
+  <p class=Body>Интерфейсы от видеооборудования – аналоговые S-Video и RCA,
+  цифровые IEEE 1394 и <span lang=EN-US style='mso-ansi-language:EN-US'>USB</span>2.0<span
+  style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Видеорежимы</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Для цифровой видеокамеры: 4CIF (720x576), CIF (360x288), QCIF
+  (176x144), SQCIF (128x96); для аналоговой – 720<span lang=EN-US
+  style='mso-ansi-language:EN-US'>x</span>576, 352<span lang=EN-US
+  style='mso-ansi-language:EN-US'>x</span>288</p>
+  <p class=Body>При просмотре возможно масштабирование до любого формата как с
+  сохранением пропорций, так и без. Имеется режим полноэкранного вывода («<span
+  lang=EN-US style='mso-ansi-language:EN-US'>Full</span><span lang=EN-US> </span><span
+  lang=EN-US style='mso-ansi-language:EN-US'>Screen</span>»).</p>
+  <p class=Body>Поддерживаются режимы отображения как с соотношением сторон
+  кадра 4:3, так и 16:9</p>
+  <p class=Body>Частота кадров – от 1 <span lang=EN-US style='mso-ansi-language:
+  EN-US'>fps</span> до частоты кадров источника.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Параметры передаваемого изображения и звука<span
+  style='color:#333333'><o:p></o:p></span></p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Предельный достижимый уровень качества определяется мощностью
+  процессора в конкретном исполнении терминала и пропускной способностью канала
+  связи.</p>
+  <p class=Body><span lang=EN-US style='mso-ansi-language:EN-US'>В</span>
+  настройках сервера указываются:</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>частота кадров,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>формат изображения</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>желаемый результирующий поток данных в Интернет-канале.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Поддерживаемые стандарты передачи данных</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Соединение точка-точка, многоточечное соединение</p>
+  <p class=Body>Поддерживаемые запросы: видео; аудио данные</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Разрешение при передаче изображений участников</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Для цифровой видеокамеры:</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>4CIF (720x576), </p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>CIF (360x288), </p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>QCIF (176x144), </p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>SQCIF (128x96);</p>
+  <p class=Body>Для аналоговой видеокамеры:</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>720x576, 352x288.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Величина потока вещания</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Задается любое значение в диапазоне 50 кбит/с..30 Мбит/с в соответствии
+  с характеристиками имеющегося канала и необходимым уровнем качества видео.<span
+  style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Входы/Выходы (подключение)</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body><a name="_Toc108844446">Видео</a><span lang=EN-US
+  style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><b>Вход:</b> цифровой <span lang=EN-US
+  style='mso-ansi-language:EN-US'>IEEE</span> 1394, композитный (<span
+  lang=EN-US style='mso-ansi-language:EN-US'>RCA</span>) и <span lang=EN-US
+  style='mso-ansi-language:EN-US'>S</span>-<span lang=EN-US style='mso-ansi-language:
+  EN-US'>video</span> (<span lang=EN-US style='mso-ansi-language:EN-US'>miniDIN</span>),
+  <span lang=EN-US style='mso-ansi-language:EN-US'>USB</span> (для камер,
+  зарегистрированных производителем <span lang=EN-US style='mso-ansi-language:
+  EN-US'>Vidicor</span>).</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><b>Выход:</b> XGA монитор. Композитный (<span
+  lang=EN-US style='mso-ansi-language:EN-US'>RCA</span>) и <span lang=EN-US
+  style='mso-ansi-language:EN-US'>S</span>-<span lang=EN-US style='mso-ansi-language:
+  EN-US'>video</span> (<span lang=EN-US style='mso-ansi-language:EN-US'>miniDIN</span>)
+  с корректным поддержанием чересстрочной развертки.</p>
+  <p class=Body><a name="_Toc108844447">Аудио</a></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><b>Вход:</b> микрофон трубки системного
+  телефонного аппарата или разъемы микрофонного или линейного входов («<span
+  lang=EN-US style='mso-ansi-language:EN-US'>Jack</span> 3.5»).</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><b>Выход:</b> излучатель трубки телефонного
+  аппарата или разъем линейного выхода («<span lang=EN-US style='mso-ansi-language:
+  EN-US'>Jack</span> 3.5»).</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Функции вызова</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Автоматическое обновление статусов участников конференции, </p>
+  <p class=Body>Поддержка набора по IP адресу<span style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Управление системой</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>с системного телефонного аппарата,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>с другого компьютера через встроенную
+  веб-страницу управления (с паролем),</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>с пульта председательствующего (при наличии),</p>
+  <p class=Body>Управление через веб-страницу (особо – с компьютера сенсорным
+  экраном) имеет крайне наглядный пользовательский интерфейс.<span
+  style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Состав поставки</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>блок видео-Интернет-<span class=Body0>коммуникатора</span>
+  <span class=SystemName><span style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span></span>;</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>телефонный аппарат,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видеомонитор 19&quot;,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видеокамера</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>пульт председательствующего</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>руководство пользователя</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body><a name="_Toc108844444">Состав типовой системы</a><span
+  style='color:#333333'><o:p></o:p></span></p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>В целом система состоит из множества терминалов Vidicor, пульта
+  председательствующего (а также, возможно – множества пользовательских компьютеров
+  и ретрансляторов) объединенных локальной вычислительной сетью или Интернет. В
+  состав системы могут входить и системы одностороннего приема через спутниковый
+  канал. </p>
+  <p class=Body>Терминал системы <span class=SystemName><span style='mso-field-code:
+  " REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span></span> является основным элементом системы, включает:</p>
+  <p class=Bulleted><![if !supportLists]><span style='mso-bidi-font-size:12.0pt;
+  font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span style='mso-bidi-font-size:12.0pt'>базовый
+  блок </span><span class=SystemName><span style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+   <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+  </xml><![endif]--></span></span><span style='mso-bidi-font-size:12.0pt'>,<o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>телефонный аппарат,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видеокамеру,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видеомонитор.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Подключение системы к сети</p>
+  </td>
+  <td width="76%" valign=top style='width:76.08%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Сопряжение оборудования с сетью осуществляется по интерфейсу
+  10/100 <span lang=EN-US style='mso-ansi-language:EN-US'>Base</span>-<span
+  lang=EN-US style='mso-ansi-language:EN-US'>T</span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Задержки передачи пакетов</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>задержка пакетов: до 2000 мс,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>потери пакетов: до 5 % (до 1% – без потери
+  качества),</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>джиттер пакетов: до 500 мс,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>обрыв канала связи с конкретным абонентом до
+  10 с; после восстановления канала работа с данным абонентом автоматически
+  восстанавливается без ухудшения параметров.</p>
+  <p class=Body>Задержки, потери, джиттер пакетов и обрыв в канале связи с конкретным
+  абонентом не влияют на ход конференции и параметры отображения у/от других абонентов.<span
+  style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body><a name="_Toc108876450">Прием трансляции на персональный компьютер:
+  </a></p>
+  <p class=Body><span style='mso-bookmark:_Toc108876450'>оборудование и программные
+  средства</span><span style='color:#333333'><o:p></o:p></span></p>
+  </td>
+  <td width="76%" valign=top style='width:76.08%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <h2>Оборудование</h2>
+  <h3>Компьютер:</h3>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>Процессор: производительность, обеспечивающая
+  при приеме потока с выбранным качеством загрузку не более 80% по индикатору: </p>
+  <p class=Bulleted1 style='margin-left:51.05pt;text-indent:-8.5pt;mso-list:
+  l4 level2 lfo38;tab-stops:list 51.05pt'><![if !supportLists]><span
+  style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+  style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>качество
+  телевизионного стандарта 720*576 пикселов, 25 кадр/с - <b style='mso-bidi-font-weight:
+  normal'>Pentium IV 3000 МГц,</b> </p>
+  <p class=Bulleted1 style='margin-left:51.05pt;text-indent:-8.5pt;mso-list:
+  l4 level2 lfo38;tab-stops:list 51.05pt'><![if !supportLists]><span
+  style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+  style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>качество
+  360*288, 12.5 кадр/с - <b style='mso-bidi-font-weight:normal'>Pentium IV 2000
+  МГц</b>, </p>
+  <p class=Bulleted1 style='margin-left:51.05pt;text-indent:-8.5pt;mso-list:
+  l4 level2 lfo38;tab-stops:list 51.05pt'><![if !supportLists]><span
+  style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+  style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]>качество
+  360*288, 8 кадр/с – <b style='mso-bidi-font-weight:normal'>Pentium III 1000
+  МГц</b>;</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>объем оперативной памяти не ниже 128 Мб;</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>звуковая карта;</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>видеокарта с возможностью отображения <b><i>не
+  менее</i></b> 65536 цветов на пиксел (режим HiColor (16 бит).</p>
+  <h3>Видеомонитор или иное средство отображения видео.</h3>
+  <h3>Наушники или акустическая система.</h3>
+  <h2>Программные средства</h2>
+  <h3>Операционная система (варианты):</h3>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>Windows<i> XP</i> в стандартной конфигурации с
+  установленным <i><span lang=EN-US style='mso-ansi-language:EN-US'>Service</span><span
+  lang=EN-US> </span></i><i><span lang=EN-US style='mso-ansi-language:EN-US'>Pack</span></i>
+  версии 2 или выше (рекомендуется);</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><i>Windows XP</i> в стандартной конфигурации;</p>
+  <p class=Bulleted><![if !supportLists]><span lang=EN-US style='font-family:
+  Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-ansi-language:
+  EN-US'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:
+  EN-US'>Windows 98, Windows 98 SE, Windows ME, Windows 2000 </span>в<span
+  style='mso-ansi-language:EN-US'> </span>стандартной<span style='mso-ansi-language:
+  EN-US'> </span>конфигурации<span lang=EN-US style='mso-ansi-language:EN-US'>.<o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><i>Windows NT 4.0</i> с установленным <i><span
+  lang=EN-US style='mso-ansi-language:EN-US'>Service</span><span lang=EN-US> </span></i><i><span
+  lang=EN-US style='mso-ansi-language:EN-US'>Pack</span></i> версии 3 или выше;</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]><i>Windows 95</i> или <i>Windows 95 OSR2</i> с
+  установленными драйверами <i>DirectX 5.0</i> или выше и установленным
+  обновлением <i>WinSock 2</i>;</p>
+  <h3>Инсталлированные драйвера для звуковой карты и видеокарты данного
+  компьютера.</h3>
+  <h3>Сетевые драйвера протокола TCP/IP.</h3>
+  <h3>Веб-браузер <i><span lang=EN-US style='mso-ansi-language:EN-US'>MS</span></i><span
+  lang=EN-US> </span><i style='mso-bidi-font-style:normal'>Internet<span
+  style='mso-bidi-font-style:italic'> </span></i><i><span lang=EN-US
+  style='mso-ansi-language:EN-US'>Explorer</span></i> версии не ниже 6.0 или
+  приложение «<span lang=EN-US style='mso-ansi-language:EN-US'>Vidicor</span><span
+  lang=EN-US> </span><span lang=EN-US style='mso-ansi-language:EN-US'>Watcher</span>»
+  (может быть подгружено с сервера вещания <span lang=EN-US style='mso-ansi-language:
+  EN-US'>Vidicor</span>)<span style='color:#333333'><o:p></o:p></span></h3>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Требования к каналу связи с сетью Интернет</p>
+  </td>
+  <td width="76%" valign=top style='width:76.08%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Не имеет формальных ограничений по скорости передачи данных по
+  каналу связи, допускается установка любых предпочтений, для которых
+  достаточно производительности процессора. При этом большему потоку данных
+  соответствует лучшее качество:</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>30 Мбит/с – «VIP-качество»,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>2..3 Мбит/с – качество вещательного
+  телевидения (720х576 точек, 25 кадр/с),</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>1.5 Мбит/с – «почти вещательное» качество,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>500 кбит/с – уровень VHS видеокассеты,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>250 кбит/с – приемлемое качество,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>100 кбит/с, 50 кбит/с – «тоже качество»
+  (приемлемо, когда нет других вариантов),</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>от 5 кбит/с – только звук и «слайд-шоу».</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Безопасность</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>При настройках по умолчанию система допускает
+  потерю в канале связи до 3% данных без влияния на изображение или звук.
+  Возможно указать настройки и с более высоким уровнем защиты от потерь данных
+  ценой увеличения потока данных.</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>При полном обрыве канала связи обеспечивает
+  сохранение соединения в течение 60 секунд, после восстановления канала через
+  1..5 секунд система возобновляет функционирование в обычном режиме без ухудшения
+  параметров.</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>Допускается получение видеопотока в режиме и
+  одностороннего вещания (например, через принимающую спутниковую систему).</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:18'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body><a name="_Toc108844452">Сетевое подключение</a></p>
+  </td>
+  <td width="76%" valign=top style='width:76.08%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>При нахождении сторон связи в разных сетях, по крайней мере,
+  одна из них должна иметь выделенный глобальный IP-адрес. </p>
+  <p class=Body>В случае если у одной из сторон нет выделенного глобального
+  IP-адрес, для этой стороны за пределы локальной сети возможны только
+  исходящие звонки. </p>
+  <p class=Body>Подключения должны обеспечивать прохождение пакетов между
+  сторонами по <b>порту 80</b> по протоколу <b><span lang=EN-US
+  style='mso-ansi-language:EN-US'>TCP</span><span lang=EN-US> </span></b>(при
+  вещательной трансляции желательно кроме этого прохождение и пакетов UDP) в
+  обе стороны.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:19'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Сетевой интерфейс</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>1xLAN/Ethernet/<b>IEEE 802.3</b> (RJ-45) 10/100 Мб, 1 Гбит
+  (ЛВС, DSL, модем).<span style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:20'>
+  <td width="23%" style='width:23.92%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body><a name="_Toc108844457">Требования к электропитанию</a><span
+  style='color:#333333'><o:p></o:p></span></p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Напряжение: 100-250 В, 50-60 Гц.<span style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:21'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Габариты</p>
+  <p class=Body><o:p>&nbsp;</o:p></p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Терминал: Настольный корпус размером 243 x 181 x 330 мм</p>
+  <p class=Body>Масса: 6 кг.</p>
+  <p class=MsoNormal>Пульт председательствующего: конструктив ноутбука.</p>
+  <p class=Body>По требованию заказчика возможна сборка узлов системы практически
+  в любых корпусах системных блоков<span style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:22;mso-yfti-lastrow:yes'>
+  <td width="23%" style='width:23.92%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Гарантия</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=MsoNormal>1.5 года</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<h1>Пульт председательствующего <span lang=EN-US style='mso-ansi-language:EN-US'>(</span>опционально)<span
+lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></h1>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="94%"
+ style='width:94.98%;mso-cellspacing:0cm;border:solid windowtext 1.0pt;
+ mso-border-alt:solid windowtext .75pt;mso-padding-alt:1.2pt 1.2pt 1.2pt 1.2pt;
+ mso-border-insideh:.75pt solid windowtext;mso-border-insidev:.75pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Назначение</p>
+  <p class=Body><o:p>&nbsp;</o:p></p>
+  </td>
+  <td width="76%" valign=top style='width:76.08%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Позволяет проводить под управлением с пульта председательствующего
+  совместный сеанс мультимедийной связи между неограниченным количеством
+  участников с возможностью отображения на экранах участников (а в случае
+  публичной трансляции сеанса через веб-сайт – и на экранах интернет-зрителей)
+  тех из них, кому председательствующий в данный момент предоставил слово. Кколичество
+  и состав участников, которым предоставлено слово, может динамически изменяться
+  председательствующим.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Функции</p>
+  </td>
+  <td width="76%" valign=top style='width:76.08%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Bulleted><![if !supportLists]><span lang=EN-US style='font-family:
+  Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-ansi-language:
+  EN-US'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>выбор конференции, <span lang=EN-US
+  style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span lang=EN-US style='font-family:
+  Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-ansi-language:
+  EN-US'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>выбор приглашаемых участников,<span
+  lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>вызов участников,</p>
+  <p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+  mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+  style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span></span><![endif]>определение участников, которым
+  предоставляется слово и которые будут видны на экранах всех участников,</p>
+  <p class=Body>Выполнение данных функций выполняется с интуитивно понятным
+  интерфейсом с применением сенсорного экрана или графического планшета.</p>
+  <p class=Body>Количество дублирующих пультов председательствующего не ограничено.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width="23%" valign=top style='width:23.92%;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Габариты</p>
+  <p class=Body><o:p>&nbsp;</o:p></p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Конструктив ноутбука.</p>
+  <p class=Body>По требованию заказчика возможна сборка узлов системы практически
+  в любых корпусах системных блоков<span style='color:#333333'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td width="23%" style='width:23.92%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>Гарантия</p>
+  </td>
+  <td width="76%" style='width:76.08%;border:solid windowtext 1.0pt;mso-border-alt:
+  solid windowtext .75pt;padding:1.2pt 1.2pt 1.2pt 1.2pt'>
+  <p class=Body>1.5 года</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=Body>Возможно изменение характеристик по желанию заказчика. </p>
+
+<p class=Body>Наш адрес:</p>
+
+<p class=Body>620137, Екатеринбург, ул.Июльская 19-137</p>
+
+<p class=Body>Тел. (343) 372-0640<span lang=EN-US style='mso-ansi-language:
+EN-US'><o:p></o:p></span></p>
+
+<p class=Body>Факс<span lang=EN-US style='mso-ansi-language:EN-US'> (343)
+3491885<o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

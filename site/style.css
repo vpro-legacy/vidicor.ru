@@ -1,0 +1,162 @@
+﻿@charset "utf-8";
+/* НПЦ «Видикор»
+(c) Булавин М.В., 2007
+*/
+
+/* FIX PNG */
+img {
+behavior:url("pngbehavior.htc");
+}
+
+table.InfoTable 
+{
+ border-width:thin;
+ border-style:dotted;
+}
+
+/* Тело */
+body {
+background:url(img/top-table-bg.jpg);
+background-repeat:no-repeat;
+background-color:white;
+font-family: Tahoma, Arial;
+font-size:12px;
+margin:0px;
+color:#303030;
+}
+
+/* Ссылки */
+
+/* Основная ссылка */
+a {
+color:#3366FF;
+font-weight:bold;
+text-decoration:underline;
+}
+a:hover {
+text-decoration:none;
+}
+
+
+/* Белая ссылка */
+a.WhiteLink {
+color:white;
+font-weight:bold;
+text-decoration:underline;
+}
+a.WhiteLink:hover {
+text-decoration:none;
+}
+
+/* Оранжевая ссылка */
+a.OrangeLink {
+color:#FFFF66;
+font-weight:bold;
+text-decoration:underline;
+}
+a.OrangeLink:hover {
+text-decoration:none;
+}
+
+
+
+/* Блок: Верхнее меню */
+.THeader-Blue {
+float:left;
+clear:right;
+padding:5px;
+background:#3300CC;
+font-family:Trebuchet MS;
+font-size:20px;
+font-weight:bold;
+color:white;
+}
+
+.THeader-Green {
+padding:5px;
+background-color:#339933;
+font-family:Trebuchet MS;
+font-size:20px;
+font-weight:bold;
+color:white;
+}
+
+.THeader-Red {
+font-family:Trebuchet MS;
+font-size:20px;
+font-weight:bold;
+padding:5px;
+background-color:red;
+color:white;
+}
+
+.THeader-Gray {
+font-family:Trebuchet MS;
+font-size:20px;
+font-weight:bold;
+padding:5px;
+background-color:#A0A0A0;
+color:white;
+}
+
+
+/* Ссылка-блок */
+.TH {
+font-family:Trebuchet MS;
+font-size:20px;
+font-weight:bold;
+padding:5px;
+color:white;
+cursor:hand;
+}
+
+
+/* Стили текста */
+.TitleText {
+font-weight:bold;
+font-size:24px;
+color:#82c341;
+}
+
+.JHead {
+font-weight:bold;
+font-size:16px;
+color:#303030;
+}
+
+.MHead {
+font-weight:bold;
+font-size:12px;
+color:#303030;
+}
+
+.Star {
+font-weight:bold;
+font-size:20px;
+color:red;
+}
+
+.MediumText {
+font-weight:bold;
+font-size:16px;
+}
+
+.SmallText {
+font-weight:bold;
+font-size:10px;
+color:#303030;
+}
+
+table.InfoTable
+{
+	top:5px;
+	position:absolute;
+	left:80%;
+	background-color:floralwhite;
+	border-color:Black;
+}
+
+td 
+{
+ align:center;
+}

@@ -1,0 +1,4200 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Specification.files/filelist.xml">
+<link rel=Edit-Time-Data href="Specification.files/editdata.mso">
+<link rel=OLE-Object-Data href="Specification.files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Видео-Интернет-коммуникатор &quot;VidicoR&quot; -- спецификация</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>bistrova</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Vladimir V. Prokhorov</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>2</o:TotalTime>
+  <o:Created>2006-10-21T08:44:00Z</o:Created>
+  <o:LastSaved>2006-10-21T08:44:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>3929</o:Words>
+  <o:Characters>22401</o:Characters>
+  <o:Company>Ekaterinburg</o:Company>
+  <o:Lines>186</o:Lines>
+  <o:Paragraphs>52</o:Paragraphs>
+  <o:CharactersWithSpaces>26278</o:CharactersWithSpaces>
+  <o:Version>11.5703</o:Version>
+ </o:DocumentProperties>
+ <o:CustomDocumentProperties>
+  <o:_AdHocReviewCycleID dt:dt="float">-504714530</o:_AdHocReviewCycleID>
+  <o:_EmailSubject dt:dt="string">выдержки из ТЗ на систему ВКС файл</o:_EmailSubject>
+  <o:_AuthorEmail dt:dt="string">timofeev@sov.mplik.ru</o:_AuthorEmail>
+  <o:_AuthorEmailDisplayName dt:dt="string">Вячеслав Тимофеев </o:_AuthorEmailDisplayName>
+  <o:_ReviewingToolsShownOnce dt:dt="string"></o:_ReviewingToolsShownOnce>
+ </o:CustomDocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:AutoHyphenation/>
+  <w:HyphenationZone>17</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>6 пт</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>6 пт</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>3</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotShadeFormData/>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+   <w:UseWord97LineBreakingRules/>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:"Bauhaus 93";
+	panose-1:4 3 9 5 2 11 2 2 12 2;
+	mso-font-charset:0;
+	mso-generic-font-family:decorative;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"Arial Black";
+	panose-1:2 11 10 4 2 1 2 2 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	mso-list:l9 level1 lfo14;
+	mso-hyphenate:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:Arial;
+	mso-font-kerning:0pt;}
+h2
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	mso-list:l9 level2 lfo14;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:13.0pt;
+	font-family:Arial;
+	mso-bidi-font-style:italic;}
+h3
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	mso-list:l9 level3 lfo14;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Arial;}
+h4
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-indent:0cm;
+	mso-pagination:none;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	mso-list:l9 level4 lfo14;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Arial;}
+h5
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;
+	mso-pagination:none;
+	mso-outline-level:5;
+	mso-list:l9 level5 lfo14;
+	tab-stops:list 50.4pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:13.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h6
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;
+	mso-pagination:none;
+	mso-outline-level:6;
+	mso-list:l9 level6 lfo14;
+	tab-stops:list 57.6pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;
+	mso-pagination:none;
+	mso-outline-level:7;
+	mso-list:l9 level7 lfo14;
+	tab-stops:list 64.8pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;
+	mso-pagination:none;
+	mso-outline-level:8;
+	mso-list:l9 level8 lfo14;
+	tab-stops:list 72.0pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;
+	mso-pagination:none;
+	mso-outline-level:9;
+	mso-list:l9 level9 lfo14;
+	tab-stops:list 79.2pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.2pt;
+	mso-pagination:none;
+	tab-stops:14.2pt right dotted 467.35pt;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:10.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Обычный;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:20.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoList, li.MsoList, div.MsoList
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+p.Body, li.Body, div.Body
+	{mso-style-name:Body;
+	mso-style-update:auto;
+	mso-style-link:"Body Знак";
+	margin-top:3.0pt;
+	margin-right:.85pt;
+	margin-bottom:3.0pt;
+	margin-left:.3pt;
+	text-align:justify;
+	text-indent:21.0pt;
+	mso-pagination:widow-orphan;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.Italic, li.Italic, div.Italic
+	{mso-style-name:Italic;
+	mso-style-update:auto;
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:.3pt;
+	text-align:justify;
+	line-height:11.4pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	font-style:italic;}
+p.Bulleted, li.Bulleted, div.Bulleted
+	{mso-style-name:Bulleted;
+	mso-style-update:auto;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.55pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-14.2pt;
+	mso-pagination:widow-orphan;
+	mso-list:l20 level1 lfo5;
+	tab-stops:list 42.55pt;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	letter-spacing:.05pt;}
+p.ItalicISDN, li.ItalicISDN, div.ItalicISDN
+	{mso-style-name:Italic_ISDN;
+	mso-style-parent:Italic;
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:.3pt;
+	text-align:justify;
+	line-height:11.4pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	display:none;
+	mso-hide:all;
+	font-style:italic;}
+p.BodyPre, li.BodyPre, div.BodyPre
+	{mso-style-name:BodyPre;
+	mso-style-update:auto;
+	mso-style-parent:Body;
+	margin-top:3.0pt;
+	margin-right:.85pt;
+	margin-bottom:3.0pt;
+	margin-left:.3pt;
+	text-align:justify;
+	text-indent:21.0pt;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.BodyHidden, li.BodyHidden, div.BodyHidden
+	{mso-style-name:BodyHidden;
+	mso-style-update:auto;
+	mso-style-parent:Body;
+	mso-style-link:"BodyHidden Знак";
+	margin-top:3.0pt;
+	margin-right:.85pt;
+	margin-bottom:3.0pt;
+	margin-left:.3pt;
+	text-align:justify;
+	text-indent:21.0pt;
+	mso-pagination:widow-orphan;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:silver;
+	display:none;
+	mso-hide:all;}
+span.Body0
+	{mso-style-name:"Body Знак";
+	mso-style-locked:yes;
+	mso-style-link:Body;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ansi-language:RU;
+	mso-fareast-language:RU;
+	mso-bidi-language:AR-SA;}
+span.BodyHidden0
+	{mso-style-name:"BodyHidden Знак";
+	mso-style-locked:yes;
+	mso-style-parent:"Body Знак";
+	mso-style-link:BodyHidden;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	color:silver;
+	display:none;
+	mso-hide:all;
+	mso-ansi-language:RU;
+	mso-fareast-language:RU;
+	mso-bidi-language:AR-SA;}
+p.BulletedHidden, li.BulletedHidden, div.BulletedHidden
+	{mso-style-name:BulletedHidden;
+	mso-style-update:auto;
+	mso-style-parent:Bulleted;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.55pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-14.2pt;
+	mso-pagination:widow-orphan;
+	mso-list:l20 level1 lfo5;
+	tab-stops:list 42.55pt;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	display:none;
+	mso-hide:all;
+	letter-spacing:.05pt;}
+p.Title, li.Title, div.Title
+	{mso-style-name:Title;
+	mso-style-update:auto;
+	mso-style-parent:Italic;
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:.3pt;
+	text-align:center;
+	mso-pagination:none;
+	background:white;
+	mso-layout-grid-align:none;
+	text-autospace:none;
+	font-size:20.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;
+	mso-bidi-font-style:italic;}
+p.Figure, li.Figure, div.Figure
+	{mso-style-name:Figure;
+	mso-style-update:auto;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan lines-together;
+	mso-hyphenate:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.FigTitle, li.FigTitle, div.FigTitle
+	{mso-style-name:FigTitle;
+	mso-style-update:auto;
+	mso-style-parent:Body;
+	mso-style-next:Обычный;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-list:l15 level1 lfo25;
+	mso-hyphenate:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-weight:bold;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+p.2, li.2, div.2
+	{mso-style-name:Список2;
+	mso-style-parent:Список;
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:42.55pt;
+	text-align:justify;
+	text-indent:-14.2pt;
+	mso-pagination:widow-orphan;
+	mso-list:l6 level3 lfo24;
+	tab-stops:list 42.55pt;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SystemName
+	{mso-style-name:SystemName;
+	font-family:"Bauhaus 93";
+	mso-ascii-font-family:"Bauhaus 93";
+	mso-hansi-font-family:"Bauhaus 93";
+	color:blue;
+	font-style:italic;
+	mso-bidi-font-style:normal;}
+span.BodyChar
+	{mso-style-name:"Body Char";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ansi-language:RU;
+	mso-fareast-language:RU;
+	mso-bidi-language:AR-SA;}
+p.Body2, li.Body2, div.Body2
+	{mso-style-name:"Body 2";
+	mso-style-update:auto;
+	mso-style-parent:"Заголовок 2";
+	mso-style-link:"Body 2 Знак";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:27.0pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	mso-hyphenate:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-weight:bold;
+	mso-bidi-font-style:italic;}
+span.Body20
+	{mso-style-name:"Body 2 Знак";
+	mso-style-locked:yes;
+	mso-style-link:"Body 2";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	mso-ansi-language:RU;
+	mso-fareast-language:RU;
+	mso-bidi-language:AR-SA;
+	mso-bidi-font-weight:bold;
+	mso-bidi-font-style:italic;}
+p.20, li.20, div.20
+	{mso-style-name:Название2;
+	mso-style-update:auto;
+	mso-style-link:"Название2 Знак";
+	margin-top:42.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-hyphenate:none;
+	font-size:28.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:navy;
+	mso-font-kerning:14.0pt;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+span.21
+	{mso-style-name:"Название2 Знак";
+	mso-style-locked:yes;
+	mso-style-link:Название2;
+	mso-ansi-font-size:28.0pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	color:navy;
+	mso-font-kerning:14.0pt;
+	mso-ansi-language:RU;
+	mso-fareast-language:RU;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+span.SystemName100-90
+	{mso-style-name:"Стиль Стиль SystemName + 100 пт полужирный Темно-синий + 90 пт не \.\.\.";
+	mso-ansi-font-size:90.0pt;
+	font-family:"Bauhaus 93";
+	mso-ascii-font-family:"Bauhaus 93";
+	mso-hansi-font-family:"Bauhaus 93";
+	color:blue;
+	mso-font-kerning:14.0pt;
+	font-weight:bold;}
+p.BigTitle, li.BigTitle, div.BigTitle
+	{mso-style-name:BigTitle;
+	mso-style-update:auto;
+	mso-style-parent:"";
+	mso-style-next:Body;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:110.0pt;
+	font-family:"Bauhaus 93";
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:blue;
+	mso-font-kerning:14.0pt;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Table, li.Table, div.Table
+	{mso-style-name:Table;
+	mso-style-update:auto;
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+span.Brand
+	{mso-style-name:Brand;
+	font-family:"Arial Black";
+	mso-ascii-font-family:"Arial Black";
+	mso-hansi-font-family:"Arial Black";
+	color:blue;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:595.45pt 841.7pt;
+	margin:2.0cm 42.55pt 1.0cm 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:-2;
+	mso-list-type:simple;
+	mso-list-template-ids:-1607857302;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:*;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1
+	{mso-list-id:167913346;
+	mso-list-template-ids:-1488845910;}
+@list l1:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l1:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+@list l1:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l1:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l1:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l1:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l1:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l1:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l1:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l2
+	{mso-list-id:373048129;
+	mso-list-template-ids:-1535102384;}
+@list l2:level1
+	{mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l2:level2
+	{mso-level-text:"%2\.%1";
+	mso-level-tab-stop:2.0cm;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l2:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l2:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l2:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l2:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l2:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l2:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l2:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l3
+	{mso-list-id:710694439;
+	mso-list-template-ids:-1568632380;}
+@list l3:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l3:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l3:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l3:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l3:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l3:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l3:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l3:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l3:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l4
+	{mso-list-id:721683599;
+	mso-list-template-ids:-1345392674;}
+@list l4:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l4:level2
+	{mso-level-text:"%2\.%1";
+	mso-level-tab-stop:2.0cm;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l4:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l4:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l4:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l4:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l4:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l4:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l4:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l5
+	{mso-list-id:751510067;
+	mso-list-template-ids:683951418;}
+@list l5:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l5:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l5:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l5:level4
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l5:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l5:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l5:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l5:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l5:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l6
+	{mso-list-id:794449255;
+	mso-list-template-ids:748947104;}
+@list l6:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:42.55pt;
+	mso-level-number-position:left;
+	margin-left:42.55pt;
+	text-indent:-14.2pt;
+	font-family:Symbol;}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Список2;
+	mso-level-text:\F0BE;
+	mso-level-tab-stop:70.9pt;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-19.85pt;
+	font-family:Symbol;}
+@list l6:level4
+	{mso-level-text:"%1\.%2\.%3\.%4\.";
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:86.4pt;
+	text-indent:-32.4pt;}
+@list l6:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.";
+	mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:111.6pt;
+	text-indent:-39.6pt;}
+@list l6:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.";
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:136.8pt;
+	text-indent:-46.8pt;}
+@list l6:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.";
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-54.0pt;}
+@list l6:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.";
+	mso-level-tab-stop:198.0pt;
+	mso-level-number-position:left;
+	margin-left:187.2pt;
+	text-indent:-61.2pt;}
+@list l6:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:234.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-72.0pt;}
+@list l7
+	{mso-list-id:1065177944;
+	mso-list-template-ids:1085279796;}
+@list l7:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:none;
+	text-underline:none;}
+@list l7:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+@list l7:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l7:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l7:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l7:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l7:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l7:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l7:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l8
+	{mso-list-id:1162425749;
+	mso-list-template-ids:100461292;}
+@list l8:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l8:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l8:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l8:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l8:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l8:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l8:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l8:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l8:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l9
+	{mso-list-id:1341734261;
+	mso-list-template-ids:169231454;}
+@list l9:level1
+	{mso-level-style-link:"Заголовок 1";
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l9:level2
+	{mso-level-style-link:"Заголовок 2";
+	mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l9:level3
+	{mso-level-style-link:"Заголовок 3";
+	mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l9:level4
+	{mso-level-style-link:"Заголовок 4";
+	mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l9:level5
+	{mso-level-style-link:"Заголовок 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l9:level6
+	{mso-level-style-link:"Заголовок 6";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l9:level7
+	{mso-level-style-link:"Заголовок 7";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l9:level8
+	{mso-level-style-link:"Заголовок 8";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l9:level9
+	{mso-level-style-link:"Заголовок 9";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l10
+	{mso-list-id:1359349894;
+	mso-list-template-ids:-538950094;}
+@list l10:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l10:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l10:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l10:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l10:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l10:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l10:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l10:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l10:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l11
+	{mso-list-id:1375957913;
+	mso-list-template-ids:-2090059714;}
+@list l11:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l11:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l11:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l11:level4
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l11:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l11:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l11:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l11:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l11:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l12
+	{mso-list-id:1467241801;
+	mso-list-template-ids:451985534;}
+@list l12:level1
+	{mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l12:level2
+	{mso-level-number-format:none;
+	mso-level-text:"%1Ответ\:";
+	mso-level-tab-stop:2.0cm;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l12:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l12:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l12:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l12:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l12:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l12:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l12:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l13
+	{mso-list-id:1580364359;
+	mso-list-template-ids:492470356;}
+@list l13:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:underline;
+	text-underline:single;}
+@list l13:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:2.0cm;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:underline;
+	text-underline:single;}
+@list l13:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l13:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l13:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l13:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l13:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l13:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l13:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l14
+	{mso-list-id:1581595757;
+	mso-list-template-ids:221567134;}
+@list l14:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	color:#993300;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-underline:#993300;
+	text-decoration:none;
+	text-underline:none;}
+@list l14:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0cm;
+	text-indent:-42.5pt;
+	color:windowtext;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;
+	text-decoration:none;
+	text-underline:none;}
+@list l14:level3
+	{mso-level-text:"%2\.%3";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l14:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:43.2pt;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l14:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l14:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l14:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l14:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l14:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l15
+	{mso-list-id:1704014114;
+	mso-list-template-ids:-1770068688;}
+@list l15:level1
+	{mso-level-style-link:FigTitle;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l15:level2
+	{mso-level-number-format:bullet;
+	mso-level-style-link:SystemName;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:42.55pt;
+	mso-level-number-position:left;
+	margin-left:42.55pt;
+	text-indent:-14.2pt;
+	font-family:Symbol;}
+@list l15:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0BE;
+	mso-level-tab-stop:70.9pt;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-19.85pt;
+	font-family:Symbol;}
+@list l15:level4
+	{mso-level-text:"%1\.%2\.%3\.%4\.";
+	mso-level-tab-stop:90.0pt;
+	mso-level-number-position:left;
+	margin-left:86.4pt;
+	text-indent:-32.4pt;}
+@list l15:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.";
+	mso-level-tab-stop:126.0pt;
+	mso-level-number-position:left;
+	margin-left:111.6pt;
+	text-indent:-39.6pt;}
+@list l15:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.";
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:136.8pt;
+	text-indent:-46.8pt;}
+@list l15:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.";
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-54.0pt;}
+@list l15:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.";
+	mso-level-tab-stop:198.0pt;
+	mso-level-number-position:left;
+	margin-left:187.2pt;
+	text-indent:-61.2pt;}
+@list l15:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:234.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-72.0pt;}
+@list l16
+	{mso-list-id:1714571749;
+	mso-list-template-ids:2005415820;}
+@list l16:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l16:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l16:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l16:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l16:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l16:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l16:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l16:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l16:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l17
+	{mso-list-id:1738552943;
+	mso-list-template-ids:-1764582208;}
+@list l17:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l17:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l17:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l17:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l17:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l17:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l17:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l17:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l17:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l18
+	{mso-list-id:1837572568;
+	mso-list-template-ids:-2075484188;}
+@list l18:level1
+	{mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l18:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:20.0pt;
+	mso-bidi-font-size:20.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l18:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l18:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l18:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l18:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l18:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l18:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l18:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l19
+	{mso-list-id:1963687161;
+	mso-list-template-ids:-538950094;}
+@list l19:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l19:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l19:level3
+	{mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:59.55pt;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;}
+@list l19:level4
+	{mso-level-number-format:none;
+	mso-level-text:"";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Symbol;}
+@list l19:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l19:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l19:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l19:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l19:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l20
+	{mso-list-id:2017608808;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1469190380;}
+@list l20:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Bulleted;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:112.5pt;
+	mso-level-number-position:left;
+	margin-left:112.5pt;
+	text-indent:-14.15pt;
+	font-family:Symbol;}
+@list l21
+	{mso-list-id:2031451220;
+	mso-list-template-ids:91671662;}
+@list l21:level1
+	{mso-level-start-at:2;
+	mso-level-suffix:space;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l21:level2
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0cm;
+	text-indent:-1.0cm;
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l21:level3
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:59.55pt;
+	text-indent:-31.2pt;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;}
+@list l21:level4
+	{mso-level-suffix:space;
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-font-weight:bold;
+	mso-ansi-font-style:normal;}
+@list l21:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:50.4pt;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l21:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:57.6pt;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l21:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:64.8pt;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l21:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l21:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:79.2pt;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+@list l0:level1 lfo1
+	{mso-level-start-at:65535;
+	mso-level-numbering:continue;
+	mso-level-text:•;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:18.9pt;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;}
+@list l0:level1 lfo2
+	{mso-level-start-at:65535;
+	mso-level-numbering:continue;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:17.7pt;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;}
+@list l0:level1 lfo3
+	{mso-level-start-at:65535;
+	mso-level-numbering:continue;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:18.0pt;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;}
+@list l0:level1 lfo4
+	{mso-level-start-at:65535;
+	mso-level-numbering:continue;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-level-legacy:yes;
+	mso-level-legacy-indent:18.3pt;
+	mso-level-legacy-space:0cm;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:Arial;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Сетка таблицы";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-tstyle-vert-align:middle;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=RU link=blue vlink=purple style='tab-interval:36.0pt;text-justify-trim:
+punctuation'>
+
+<div class=Section1>
+
+<p class=Figure><span lang=EN-US><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:183.75pt;
+ height:43.5pt'>
+ <v:imagedata src="Specification.files/image001.png" o:title="Vidicor"/>
+</v:shape><![endif]--><![if !vml]><img width=245 height=58
+src="Specification.files/image002.gif" v:shapes="_x0000_i1025"><![endif]></span></p>
+
+<p class=20>Видео<span lang=EN-US style='mso-ansi-language:EN-US'>-<br>
+</span>интернет<span lang=EN-US style='mso-ansi-language:EN-US'>-<br>
+</span>коммуникатор<span lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=BigTitle><a name="Название_системы"><span lang=EN-US style='mso-ansi-language:
+EN-US'>«</span></a><span style='mso-bookmark:Название_системы'><span
+class=SystemName100-90><span lang=EN-US style='font-size:90.0pt;mso-bidi-font-size:
+110.0pt;mso-ansi-language:EN-US;font-weight:normal;mso-bidi-font-weight:bold'>VidicoR</span></span></span><span
+style='mso-bookmark:Название_системы'><span lang=EN-US style='mso-ansi-language:
+EN-US'>»</span></span><span lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=20>Спецификация<span lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=right style='margin-left:141.6pt;text-align:right;
+text-indent:35.4pt'><span lang=EN-US style='font-size:14.0pt;mso-ansi-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=right style='margin-left:141.6pt;text-align:right;
+text-indent:35.4pt'><span lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman";
+mso-ansi-language:EN-US'><a href="http://www.vidicor.ru/Specification.doc">http://www.vidicor.ru/Specification.doc</a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='font-size:14.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='font-size:14.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='font-size:14.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='font-size:14.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='font-size:14.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='font-size:14.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='font-size:14.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='font-size:14.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=right style='text-align:right'><span lang=EN-US
+style='font-size:14.0pt;mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=Figure><span style='mso-ansi-language:RU'>ООО НПЦ «</span><span
+lang=EN-US>Vidicor</span><span lang=EN-US style='mso-ansi-language:RU'> </span><span
+lang=EN-US>Ltd</span><span style='mso-ansi-language:RU'>.» 2005<o:p></o:p></span></p>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:RU;mso-fareast-language:RU;mso-bidi-language:
+AR-SA'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=Body>В данном документе содержится описание параметров системы <span
+class=SystemName><b style='mso-bidi-font-weight:normal'><span style='font-family:
+"Times New Roman"'><span style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«<span
+style='font-weight:normal'>VidicoR</span>»<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+</xml><![endif]--></span></span></b></span>.</p>
+
+<span style='font-size:10.0pt;font-family:Arial;mso-fareast-font-family:"Times New Roman";
+mso-ansi-language:RU;mso-fareast-language:RU;mso-bidi-language:AR-SA'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='margin-top:12.0pt;margin-right:0cm;margin-bottom:
+12.0pt;margin-left:0cm'>Содержание</p>
+
+<p class=MsoToc1><!--[if supportFields]><span style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>TOC \o &quot;1-3&quot; \h \z \u <span
+style='mso-element:field-separator'></span><![endif]--><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424616">1.
+Назначение и цели создания многофункциональной системы интернет-видеосвязи на
+базе видео<span lang=EN-US style='mso-ansi-language:EN-US'>-</span>интернет-коммуникатора
+<i style='mso-bidi-font-style:normal'><span style='font-family:"Bauhaus 93"'>«VidicoR»</span></i><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1 dotted'> </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424616 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>4</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600310036000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424617"><span
+lang=EN-US style='mso-ansi-language:EN-US'>1.1.</span> Назначение<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424617 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>7</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600310037000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424618">1.2.
+Цели создания<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424618 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>8</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600310038000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><span style='mso-no-proof:yes'><a
+href="#_Toc121424619"><span lang=EN-US style='mso-ansi-language:EN-US'>2.</span>
+Характеристика компонентов системы интернет-видеосвязи<span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424619 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>9</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600310039000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424620">2.1.
+Характеристики объектов системы интернет-видеосвязи<span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424620 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>9</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320030000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424621"><span
+lang=EN-US style='mso-ansi-language:EN-US'>2.2.</span> Компоненты системы
+интернет-видеосвязи<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424621 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>10</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320031000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424622">2.2.1
+Терминал двусторонней связи<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424622 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>10</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320032000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424623"><span
+lang=EN-US style='mso-ansi-language:EN-US'>2.2.2</span> Пульт
+председательствующего<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424623 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>10</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320033000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424624">2.2.3
+Терминал просмотра зрителем<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424624 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>10</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320034000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424625">2.2.4
+Сервер<span style='color:windowtext;display:none;mso-hide:screen;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424625 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>10</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320035000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><span style='mso-no-proof:yes'><a
+href="#_Toc121424626">3. Требования к КСВКС<span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424626 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>11</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320036000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424627"><span
+lang=EN-US style='mso-ansi-language:EN-US'>3.1.</span> Требования к сети в
+целом<span style='color:windowtext;display:none;mso-hide:screen;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424627 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>11</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320037000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424628"><span
+lang=EN-US style='mso-ansi-language:EN-US'>3.1.1</span> Надежность<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424628 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>11</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320038000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424629">3.1.2
+Структурная надежность<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424629 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>11</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600320039000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424630">3.1.3
+Технологии<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424630 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>11</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330030000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424631">3.1.4
+Возможности дальнейшего развития<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424631 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>11</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330031000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424632">3.2.
+Требования по функционированию оборудования КСВКС<span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424632 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>12</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330032000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424633">3.3.
+Требования к сетевой среде<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424633 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>13</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330033000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424634">3.3.1
+Требования к сети передачи данных<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424634 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>13</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330034000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424635">3.3.2
+Интерфейсы<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424635 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>13</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330035000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424636">3.4.
+Требования к персоналу<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424636 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>14</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330036000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><span style='mso-no-proof:yes'><a
+href="#_Toc121424637">4. Установка оборудования и подключение к сети передачи
+данных<span style='color:windowtext;display:none;mso-hide:screen;text-decoration:
+none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424637 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>14</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330037000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424638">4.1.
+Инсталляция и подключение сервера<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424638 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>14</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330038000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424639">4.1.1
+Инсталляция оборудования в серверной<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424639 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>14</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600330039000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424640">4.1.2
+Подключение сервера к сети передачи данных и его настройка<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424640 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>14</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600340030000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424641">4.2.
+Установка и подключение терминального оборудования<span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424641 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>14</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600340031000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424642">4.3.
+Оборудование управления и мониторинга системы<span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424642 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>14</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600340032000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='font-size:12.0pt;font-family:"Times New Roman";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc2 style='tab-stops:right dotted 467.35pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc121424643">4.4.
+Требования к конструкции системы и монтажу технических средств<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span></span><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'> PAGEREF _Toc121424643 \h </span><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-separator'></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>15</span><span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003100320031003400320034003600340033000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><!--[if supportFields]><span
+style='mso-element:field-end'></span><![endif]--></p>
+
+<b style='mso-bidi-font-weight:normal'><span style='font-size:20.0pt;
+font-family:"Times New Roman";mso-fareast-font-family:"Times New Roman";
+color:black;mso-ansi-language:RU;mso-fareast-language:RU;mso-bidi-language:
+AR-SA;mso-bidi-font-style:italic'><br clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=Title><a name="_Toc121424616">Система интернет-видеосвязи </a><a
+name=Brand><span style='mso-bookmark:_Toc121424616'><span class=Brand><span
+style='font-size:26.0pt'>VidicoR</span></span></span></a><span
+style='mso-bookmark:_Toc121424616'></span></p>
+
+<p class=Body><span style='mso-bookmark:_Toc121424616'>Многофункциональная система
+интернет-видеосвязи </span><span style='mso-bookmark:_Toc121424616'><span
+class=Brand><span style='mso-field-code:" REF Brand \\h &#1; \\* MERGEFORMAT "'>VidicoR<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000060000004200720061006E0064000000</w:data>
+</xml><![endif]--></span></span> предназначена для высококачественной
+видеосвязи с предоставлением следующих сервисов:</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>персональная видеотелефонная связь в стиле
+обычного телефонного разговора,</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>трансляция через веб-сайт видео для просмотра
+неограниченным количеством зрителей с помощью стандартных персональных компьютеров,</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>проведение многоточечных видеоконференций с
+неограниченным количеством участников, с управлением председательствующим
+выводимыми на общий экран, с возможностью просмотра конференции через веб-сайт
+с неограниченного количества стандартных персональных компьютеров.</span></p>
+
+<p class=Body><span style='mso-bookmark:_Toc121424616'>Области применения:</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>оперативное личное и деловое общение в стиле
+телефонии,</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>интернет-видеотрансляции для массового просмотра
+культурных, политических, образовательных, спортивных и др. мероприятий,</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>видеомосты во время встреч, банкетов и т.п.,</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>совместные совещания,</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>IP-телевидение.</span></p>
+
+<p class=Body><span style='mso-bookmark:_Toc121424616'>Отличительные
+особенности</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>многофункциональность: связь «точка-точка» и
+трансляция в Интернет на обычные компьютеры на только возможна с помощью одного
+устройства, но и может происходить одновременно,</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>высокое качество связи: передача видео возможна
+с реальным broadcast качеством (720х576 pixs, 25 fps, отсутствие рассинхронизации
+изображения и звука, малая задержка передачи, высокая плавность передачи
+плавных движений и т.п.),</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>высокая устойчивость к проблемам в канале связи,</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>возможность работы в приватных сетях с шифрацией
+потока,</span></p>
+
+<p class=Bulleted style='margin-left:28.4pt;tab-stops:list 1.0cm;background:
+transparent;mso-layout-grid-align:auto;text-autospace:ideograph-numeric ideograph-other'><span
+style='mso-bookmark:_Toc121424616'><![if !supportLists]><span style='font-family:
+Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>простота использования: персональный разговор
+ведется с телефонного аппарата, председатель конференции управляет с помощью
+сенсорного экрана.</span></p>
+
+<h1><span style='mso-bookmark:_Toc121424616'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>1. </span></span><![endif]>Варианты
+конструкции комплектации коммуникатора </span><span style='mso-bookmark:_Toc121424616'><span
+class=Brand><span style='mso-field-code:" REF Brand \\h &#1; \\* MERGEFORMAT "'>VidicoR<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000060000004200720061006E0064000000</w:data>
+</xml><![endif]--></span></span></span></h1>
+
+<h2><span style='mso-bookmark:_Toc121424616'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>1.1. </span></span><![endif]>Конструктив
+моноблока</span></h2>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext 2.25pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=396 style='width:297.0pt;border-top:2.25pt;border-left:2.25pt;
+  border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;border-style:
+  solid;mso-border-top-alt:2.25pt;mso-border-left-alt:2.25pt;mso-border-bottom-alt:
+  .5pt;mso-border-right-alt:.5pt;mso-border-color-alt:windowtext;mso-border-style-alt:
+  solid;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Table><span style='mso-bookmark:_Toc121424616'>Системный блок-монитор</span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+  <td width=72 rowspan=3 style='width:54.0pt;border:solid windowtext 2.25pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-bookmark:_Toc121424616'><span lang=EN-US style='mso-ansi-language:
+  EN-US'>$</span>5</span><span style='mso-bookmark:_Toc121424616'><span
+  lang=EN-US style='mso-ansi-language:EN-US'>000</span></span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=396 style='width:297.0pt;border-top:none;border-left:solid windowtext 2.25pt;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext 2.25pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Table><span style='mso-bookmark:_Toc121424616'>Телефонный аппарат</span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+ </tr>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+  <td width=396 style='width:297.0pt;border-top:none;border-left:solid windowtext 2.25pt;
+  border-bottom:solid windowtext 2.25pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:.5pt;mso-border-left-alt:
+  2.25pt;mso-border-bottom-alt:2.25pt;mso-border-right-alt:.5pt;mso-border-color-alt:
+  windowtext;mso-border-style-alt:solid;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Table><span style='mso-bookmark:_Toc121424616'>Видеокамера</span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+ </tr>
+</table>
+
+</div>
+
+<p class=Figure><!--[if gte vml 1]><v:shape id="_x0000_s1056" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:190.2pt;
+ margin-top:351.25pt;width:37.8pt;height:8.95pt;rotation:1159570fd;z-index:4;
+ mso-position-horizontal-relative:text;mso-position-vertical-relative:text'>
+ <v:imagedata src="Specification.files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:4;left:0px;margin-left:253px;margin-top:460px;width:52px;
+height:28px'><img width=52 height=28 src="Specification.files/image004.gif"
+v:shapes="_x0000_s1056"></span><![endif]><span style='mso-bookmark:_Toc121424616'></span><!--[if gte vml 1]><v:shape
+ id="_x0000_s1053" type="#_x0000_t75" style='position:absolute;left:0;
+ text-align:left;margin-left:364.4pt;margin-top:42.5pt;width:17.05pt;height:1in;
+ z-index:1;mso-position-horizontal-relative:text;
+ mso-position-vertical-relative:text'>
+ <v:imagedata src="Specification.files/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:0px;margin-left:486px;margin-top:57px;width:23px;
+height:96px'><img width=23 height=96 src="Specification.files/image006.jpg"
+v:shapes="_x0000_s1053"></span><![endif]><span style='mso-bookmark:_Toc121424616'><span
+lang=EN-US><!--[if gte vml 1]><v:shape id="_x0000_i1026" type="#_x0000_t75"
+ style='width:318.75pt;height:446.25pt'>
+ <v:imagedata src="Specification.files/image007.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=425 height=595
+src="Specification.files/image008.jpg" v:shapes="_x0000_i1026"><![endif]></span></span></p>
+
+<p class=Body><span style='mso-bookmark:_Toc121424616'>Офисный вариант.
+Допускается подключение дополнительного монитора, LCD или плазменной панели,
+видеопроекторы с разъемом SVGA, а также внешней акустической системы. Может
+быть подключен аналоговый звуковой источник (уровень сигнала микрофонный или
+линейный) с разъемом minijack 3.5&quot;.</span></p>
+
+<p class=Body><!--[if gte vml 1]><v:shape id="_x0000_s1058" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:223.1pt;
+ margin-top:376.3pt;width:37.8pt;height:8.95pt;rotation:1159570fd;z-index:6'>
+ <v:imagedata src="Specification.files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:6;left:0px;margin-left:297px;margin-top:494px;width:52px;
+height:28px'><img width=52 height=28 src="Specification.files/image004.gif"
+v:shapes="_x0000_s1058"></span><![endif]><span style='mso-bookmark:_Toc121424616'>Могут
+подключаться внешние miniDV видеокамеры с интерфейсом USB.</span></p>
+
+<h2><span style='mso-bookmark:_Toc121424616'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>1.2. </span></span><![endif]>Коммуникатор
+с блоком обработки в<span style='mso-spacerun:yes'>  </span>отдельном
+переносном корпусе</span></h2>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext 2.25pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=396 style='width:297.0pt;border-top:2.25pt;border-left:2.25pt;
+  border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;border-style:
+  solid;mso-border-top-alt:2.25pt;mso-border-left-alt:2.25pt;mso-border-bottom-alt:
+  .5pt;mso-border-right-alt:.5pt;mso-border-color-alt:windowtext;mso-border-style-alt:
+  solid;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Table><span style='mso-bookmark:_Toc121424616'>Системный блок</span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+  <td width=72 rowspan=4 style='width:54.0pt;border:solid windowtext 2.25pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-bookmark:_Toc121424616'><span lang=EN-US style='mso-ansi-language:
+  EN-US'>$</span>5</span><span style='mso-bookmark:_Toc121424616'><span
+  lang=EN-US style='mso-ansi-language:EN-US'>000</span></span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=396 style='width:297.0pt;border-top:none;border-left:solid windowtext 2.25pt;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext 2.25pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Table><span style='mso-bookmark:_Toc121424616'>Телефонный аппарат</span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=396 style='width:297.0pt;border-top:none;border-left:solid windowtext 2.25pt;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext 2.25pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Table><span style='mso-bookmark:_Toc121424616'>Видеокамера</span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+ </tr>
+ <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+  <td width=396 style='width:297.0pt;border-top:none;border-left:solid windowtext 2.25pt;
+  border-bottom:solid windowtext 2.25pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:.5pt;mso-border-left-alt:
+  2.25pt;mso-border-bottom-alt:2.25pt;mso-border-right-alt:.5pt;mso-border-color-alt:
+  windowtext;mso-border-style-alt:solid;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Table><span style='mso-bookmark:_Toc121424616'>Штатив для
+  видеокамеры</span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+ </tr>
+</table>
+
+</div>
+
+<p class=Figure><!--[if gte vml 1]><v:shape id="_x0000_s1054" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:245.4pt;
+ margin-top:116.5pt;width:1in;height:17.05pt;rotation:-1848782fd;z-index:2;
+ mso-position-horizontal-relative:text;mso-position-vertical-relative:text'>
+ <v:imagedata src="Specification.files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:2;left:0px;margin-left:327px;margin-top:134px;width:96px;
+height:66px'><img width=96 height=66 src="Specification.files/image009.gif"
+v:shapes="_x0000_s1054"></span><![endif]><span style='mso-bookmark:_Toc121424616'></span><!--[if gte vml 1]><v:shape
+ id="_x0000_s1059" type="#_x0000_t75" style='position:absolute;left:0;
+ text-align:left;margin-left:2.4pt;margin-top:159.35pt;width:37.8pt;height:8.95pt;
+ rotation:1159570fd;z-index:7;mso-position-horizontal-relative:text;
+ mso-position-vertical-relative:text'>
+ <v:imagedata src="Specification.files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:7;left:0px;margin-left:2px;margin-top:204px;width:52px;
+height:28px'><img width=52 height=28 src="Specification.files/image004.gif"
+v:shapes="_x0000_s1059"></span><![endif]><!--[if gte vml 1]><v:shape id="_x0000_s1057"
+ type="#_x0000_t75" style='position:absolute;left:0;text-align:left;
+ margin-left:-9pt;margin-top:65.6pt;width:109.35pt;height:116.55pt;z-index:-3;
+ mso-position-horizontal-relative:text;mso-position-vertical-relative:text'>
+ <v:imagedata src="Specification.files/image010.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:-3;left:0px;margin-left:-12px;margin-top:88px;width:146px;
+height:155px'><img width=146 height=155 src="Specification.files/image011.jpg"
+v:shapes="_x0000_s1057"></span><![endif]><span style='mso-bookmark:_Toc121424616'><span
+lang=EN-US><!--[if gte vml 1]><v:shape id="_x0000_i1027" type="#_x0000_t75"
+ style='width:351.75pt;height:282pt'>
+ <v:imagedata src="Specification.files/image012.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=469 height=376
+src="Specification.files/image013.jpg" v:shapes="_x0000_i1027"><![endif]></span></span></p>
+
+<p class=Body><span style='mso-bookmark:_Toc121424616'>В комплект входит 3-х
+матричная miniDV видеокамера со штативом.</span></p>
+
+<p class=Body><span style='mso-bookmark:_Toc121424616'>Могут также подключаться
+любые видеокамеры с интерфейсом IEEE-1394, miniDV видеокамеры с интерфейсом
+USB, а также аналоговые видеокамеры, микшерские пульты, видеомагнитофоны и
+тюнеры с разъемами RCA или S-Video.</span></p>
+
+<p class=Body><span style='mso-bookmark:_Toc121424616'>Могут быть подключены
+мониторы, LCD и плазменные панели, видеопроекторы с разъемом SVGA, а также
+акустическая система.</span></p>
+
+<h2><span style='mso-bookmark:_Toc121424616'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>1.3. </span></span><![endif]>Коммуникатор
+с блоком обработки в<span style='mso-spacerun:yes'>  </span>отдельном корпусе в
+рэковом исполнении</span></h2>
+
+<p class=Figure><!--[if gte vml 1]><v:shape id="_x0000_s1055" type="#_x0000_t75"
+ style='position:absolute;left:0;text-align:left;margin-left:162.95pt;
+ margin-top:120.05pt;width:37.7pt;height:8.95pt;rotation:318616fd;z-index:3'>
+ <v:imagedata src="Specification.files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:3;left:0px;margin-left:216px;margin-top:157px;width:52px;
+height:18px'><img width=52 height=18 src="Specification.files/image014.gif"
+v:shapes="_x0000_s1055"></span><![endif]><span style='mso-bookmark:_Toc121424616'><span
+lang=EN-US><!--[if gte vml 1]><v:shape id="_x0000_i1028" type="#_x0000_t75"
+ style='width:348.75pt;height:162pt'>
+ <v:imagedata src="Specification.files/image015.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=465 height=216
+src="Specification.files/image016.jpg" v:shapes="_x0000_i1028"><![endif]><!--[if gte vml 1]><v:shape
+ id="_x0000_i1029" type="#_x0000_t75" style='width:54.75pt;height:115.5pt'>
+ <v:imagedata src="Specification.files/image017.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=73 height=154
+src="Specification.files/image018.jpg" v:shapes="_x0000_i1029"><![endif]></span></span></p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:solid windowtext 2.25pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=396 style='width:297.0pt;border-top:2.25pt;border-left:2.25pt;
+  border-bottom:1.0pt;border-right:1.0pt;border-color:windowtext;border-style:
+  solid;mso-border-top-alt:2.25pt;mso-border-left-alt:2.25pt;mso-border-bottom-alt:
+  .5pt;mso-border-right-alt:.5pt;mso-border-color-alt:windowtext;mso-border-style-alt:
+  solid;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Table><span style='mso-bookmark:_Toc121424616'>Системный блок-монитор</span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+  <td width=72 rowspan=2 style='width:54.0pt;border:solid windowtext 2.25pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-bookmark:_Toc121424616'><span lang=EN-US style='mso-ansi-language:
+  EN-US'>$</span>5</span><span style='mso-bookmark:_Toc121424616'><span
+  lang=EN-US style='mso-ansi-language:EN-US'>000</span></span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td width=396 style='width:297.0pt;border-top:none;border-left:solid windowtext 2.25pt;
+  border-bottom:solid windowtext 2.25pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:.5pt;mso-border-left-alt:
+  2.25pt;mso-border-bottom-alt:2.25pt;mso-border-right-alt:.5pt;mso-border-color-alt:
+  windowtext;mso-border-style-alt:solid;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Table><span style='mso-bookmark:_Toc121424616'>Телефонный аппарат</span></p>
+  </td>
+  <span style='mso-bookmark:_Toc121424616'></span>
+ </tr>
+</table>
+
+</div>
+
+<p class=Body><span style='mso-bookmark:_Toc121424616'>Могут подключаться любые
+аналоговые источники видео – видеокамеры, микшерские пульты, видеомагнитофоны и
+тюнеры с разъемами RCA или S-Video, а также цифровые видеокамеры с интерфейсом
+IEEE-1394 и miniDV видеокамеры с интерфейсом видео USB. Может быть подключен
+аналоговый звуковой источник (уровень сигнала микрофонный или линейный) с разъемом
+minijack 3.5&quot;.</span></p>
+
+<p class=Body><span style='mso-bookmark:_Toc121424616'>Могут быть подключены
+мониторы, LCD и плазменные панели, видеопроекторы с разъемом SVGA, а также
+акустическая система.</span></p>
+
+<h1><span style='mso-bookmark:_Toc121424616'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>2. </span></span><![endif]>Назначение
+и цели создания многофункциональной системы интернет-видеосвязи на базе видео-интернет-коммуникатора
+</span><span style='mso-bookmark:_Toc121424616'><span class=SystemName><span
+style='mso-field-code:" REF Название_системы \\h &#1; \\* MERGEFORMAT "'>«VidicoR»<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000110000001D0430043704320430043D04380435045F00410438044104420435043C044B040000</w:data>
+</xml><![endif]--></span></span></span></h1>
+
+<h2><a name="_Toc121424617"><![if !supportLists]><span lang=EN-US
+style='mso-fareast-font-family:Arial;mso-ansi-language:EN-US'><span
+style='mso-list:Ignore'>2.1. </span></span><![endif]>Назначение</a><span
+style='mso-bookmark:_Toc121424617'></span><span lang=EN-US style='mso-ansi-language:
+EN-US'><o:p></o:p></span></h2>
+
+<p class=Body>Система предназначена для выполнения следующих функций:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>осуществления персональной автоматической видеотелефонной
+связи между точками размещения терминалов,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>проведения совместных автоматических сеансов
+мультимедийной связи в режиме реального времени с передачей трафика видео,
+голоса, бумажных документов и данных с возможностью включения возможности публичного
+просмотра сеансов в реальном времени через веб-сайт в Интернет,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>осуществления через веб-сайт «прямых линий»,
+интернет-видеотрансляций выступлений, обращений и мероприятий с возможностью
+текстовой обратной связи,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>осуществления видеозаписи с ведением видеоархива
+и возможностью просмотра видеозаписей через веб-сайт.</p>
+
+<p class=Body>Сеть видеотелефонной связи, интернет-видеотрансляций и видеоконференцсвязи
+включает в себя соединения между следующими помещениями:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>кабинет руководителя, оборудуется индивидуальным
+терминалом;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>кабинеты руководителей подразделений,
+оборудуются индивидуальными терминалами;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>конференц-зал, оборудуется терминалом с
+подключением видеокамер, 42&quot;..50” плазменных панелей, 17&quot;..20&quot; <span
+lang=EN-US style='mso-ansi-language:EN-US'>LCD</span><span lang=EN-US> </span>мониторов,
+видеопроектором с экраном, системой озвучивания (включающей микрофонную и акустическую
+системы), видео-аудио микшером, пультом председательствующего;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>аппаратная, оборудуется персональным компьютером,
+сервером с видеоархивом, оборудованием звукоусиления для зала, а также устройствами
+управления видео, звуком (видео-аудио микшером), видеопроектором, экраном и
+освещением конференц-зала;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>на некоторых площадках используются имеющееся
+оборудование – видеомониторы (плазменные панели и т.п.) с компьютерами и
+имеющееся или специально оборудуемое интернет-подключение, для отображения
+принимаемой через Интернет прямой видеотрансляции.</p>
+
+<p class=Body>Для сотрудников и населения возможен с помощью стандартных
+персональных компьютеров (в пределах локальной вычислительной сети организации
+и в Интернет) просмотр выступлений, видеоконференций,<span
+style='mso-spacerun:yes'>  </span>архивных видеозаписей. Допускается прием через
+спутниковую антенну на стандартный офисный компьютер с платой спутникового тюнера
+(с передачей исходящих данных оператору спутниковой связи через Интернет). При
+интернет-трансляциях допускается возможность передачи интернет-зрителями текстовых
+сообщений с сайта просмотра на серверную сторону для организации «прямых линий».</p>
+
+<h2><a name="_Toc121424618"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>2.2. </span></span><![endif]>Цели создания</a></h2>
+
+<p class=BodyPre>Цель создания системы – удовлетворение потребностей по:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>организации индивидуальной оперативной видеотелефонной
+связи между точками размещения,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>проведению сеансов многоточечной мультимедийной
+связи в интерактивном режиме реального времени между точками, проведению
+производственных и деловых совещаний, мероприятий, связанных с оперативным
+управлением и принятием решений, демонстраций видеороликов, дистанционному
+обучению, проведению организационных семинаров и конференций, заседаний рабочих
+групп, комитетов и комиссий и т. п.,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>осуществлению прямых трансляций в Интернет
+обращений руководителей, прямых линий, проведению интернет-встреч с населением,
+трансляций сеансов многоточечной мультимедийной связи и т.п. с возможностью
+просмотра на серийных компьютерах сотрудниками организации и населением, в том
+числе – с возможностью отправки текстовых сообщений (напр., вопросов) с
+веб-страницы видеотрансляции на серверную сторону с их распечаткой на сервере.</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>созданию видеоархива с широким или ограниченным
+интернет-доступом к видеозаписям через веб-сайт.</p>
+
+<p class=Body>Данная система может позволить сократить расходы, сэкономить
+время, обеспечить гласность принятия решений, давая в необходимых случаях публичный
+доступ сотрудников администрации, общественности и СМИ через Интернет к
+проводимым организацией мероприятиям с возможностью получения он-лайн
+трансляции телекомпаниями, обеспечивать проведение публичных прямых линий с
+возможностью обратной связи текстовыми сообщениями, а также обеспечить сохранение
+видеозаписей исторически важных событий с удобным доступом через локальную сеть
+или через Интернет к их просмотру.</p>
+
+<p class=Figure><span lang=EN-US><!--[if gte vml 1]><v:shape id="_x0000_i1030"
+ type="#_x0000_t75" style='width:462pt;height:456.75pt' o:ole="">
+ <v:imagedata src="Specification.files/image019.emz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=616 height=609
+src="Specification.files/image020.gif" v:shapes="_x0000_i1030"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1030"
+  DrawAspect="Content" ObjectID="_1222946994">
+ </o:OLEObject>
+</xml><![endif]--></span></p>
+
+<h1><a name="_Toc121424619"><![if !supportLists]><span lang=EN-US
+style='mso-fareast-font-family:Arial;mso-ansi-language:EN-US'><span
+style='mso-list:Ignore'>3. </span></span><![endif]>Характеристика компонентов</a><span
+style='mso-bookmark:_Toc121424619'></span><span lang=EN-US style='mso-ansi-language:
+EN-US'><o:p></o:p></span></h1>
+
+<h2><a name="_Toc121424620"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>3.1. </span></span><![endif]>Характеристики
+объектов системы интернет-видеосвязи</a></h2>
+
+<p class=BodyPre>Оборудование видеоконференцсвязи устанавливается на объектах
+следующих категорий:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>конференц-зал,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>рабочий кабинет руководителя,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>рабочий кабинет сотрудника,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>произвольная точка с интернет-доступом – 1
+мобильный комплект,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>точки размещения инициативных интернет-зрителей
+с собственным оборудованием</p>
+
+<p class=Body>Через имеющиеся у населения и в организации стандартные
+персональные компьютеры возможен односторонний просмотр видеотрансляций,
+видеоконференций и архивных видеозаписей в пределах локальной вычислительной
+сети организации и в Интернет. Возможно подключение на время мероприятий видеомониторов
+(плазменных панелей и т.п.) с серийными компьютерами в различных точках для
+отображения прямых видеотрансляций, принимаемых через Интернет.</p>
+
+<h2><a name="_Toc121424621"><![if !supportLists]><span lang=EN-US
+style='mso-fareast-font-family:Arial;mso-ansi-language:EN-US'><span
+style='mso-list:Ignore'>3.2. </span></span><![endif]>Компоненты системы
+интернет-видеосвязи</a><span style='mso-bookmark:_Toc121424621'></span><span
+lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></h2>
+
+<h3><a name="_Toc121424622"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>3.2.1 </span></span><![endif]>Терминал
+двусторонней связи</a></h3>
+
+<p class=BodyPre>Обеспечивает по <span lang=EN-US style='mso-ansi-language:
+EN-US'>IP</span>-сетям</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>прямую персональную видеотелефонную связь с
+другим терминалом, </p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>передачу и прием бумажных документов между
+терминалами,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>видеоконференцию с помощью сервера многоточечных
+конференций или в режиме непосредственной связи,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>выполнение функций сервера многоточечных
+конференций,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>интернет-трансляцию на веб-сайт,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>видеозапись сеанса на компакт-диск.</p>
+
+<p class=Body>Обеспечивает оконную и полноэкранную демонстрацию видео на одном
+или нескольких телевизионных и компьютерных мониторах.</p>
+
+<h3><a name="_Toc121424623"><![if !supportLists]><span lang=EN-US
+style='mso-fareast-font-family:Arial;mso-ansi-language:EN-US'><span
+style='mso-list:Ignore'>3.2.2 </span></span><![endif]>Пульт председательствующего</a><span
+style='mso-bookmark:_Toc121424623'></span><span lang=EN-US style='mso-ansi-language:
+EN-US'><o:p></o:p></span></h3>
+
+<p class=Body>Предназначен для:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>выбора конференции, </p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>выбора приглашаемых участников,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>вызова участников, </p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>определения участников, которым предоставляется
+слово и которые будут видны на экранах всех участников, </p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>разрешения и запрета трансляции видеоконференции
+для зрителей на интернет-сайте или в локальной сети администрации. </p>
+
+<p class=Body>Выполнение данных функций должно выполняться с интуитивно понятным
+интерфейсом с применением сенсорного экрана или графического планшета.</p>
+
+<p class=Body>Количество дублирующих пультов председательствующего не ограничено.</p>
+
+<h3><a name="_Toc121424624"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>3.2.3 </span></span><![endif]>Терминал
+просмотра зрителем</a></h3>
+
+<p class=Body>Позволяет с веб-сайта:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>выбирать канал трансляции,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>просматривать прямую трансляцию,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>выбирать видеозапись из архива,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>просматривать выбранную видеозапись.</p>
+
+<p class=Body>Выполнение данных функций должно осуществляться с помощью
+интуитивно понятного веб-интерфейса. Просмотр должен быть возможен с любого
+компьютера под <span lang=EN-US style='mso-ansi-language:EN-US'>Windows</span><span
+lang=EN-US> </span><span lang=EN-US style='mso-ansi-language:EN-US'>XP</span><span
+lang=EN-US> </span>(и выше), не должен требовать ручной установки на компьютер
+дополнительных программных средств.</p>
+
+<h3><a name="_Toc121424625"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>3.2.4 </span></span><![endif]>Сервер</a></h3>
+
+<p class=Body>Позволяет проводить под управлением с пульта
+председательствующего совместный сеанс мультимедийной связи между неограниченным
+количеством участников с возможностью отображения на экранах участников (а в
+случае публичной трансляции сеанса через веб-сайт – и на экранах
+интернет-зрителей) тех из них, кому председательствующий в данный момент предоставил
+слово (количество и состав участников, которым предоставлено слово, может
+динамически изменяться председательствующим). Один сервер может поддерживать
+одновременно нескольких председательствующих и несколько сеансов многоточечной
+связи. Поддерживаемая скорость подключения абонента – от 64 кбит/с до 30 Мбит/с.
+</p>
+
+<p class=Body>Позволяет осуществлять видеозапись сеанса связи, подготовку
+видеозаписи, может осуществлять хранение видеозаписей и обеспечивать доступ к
+видеозаписям в режиме «видео по запросу».</p>
+
+<h1><a name="_Toc121424626"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>4. </span></span><![endif]>Требования к
+КСВКС</a></h1>
+
+<h2><a name="_Toc121424627"><![if !supportLists]><span lang=EN-US
+style='mso-fareast-font-family:Arial;mso-ansi-language:EN-US'><span
+style='mso-list:Ignore'>4.1. </span></span><![endif]>Требования к сети в целом</a><span
+style='mso-bookmark:_Toc121424627'></span><span lang=EN-US style='mso-ansi-language:
+EN-US'><o:p></o:p></span></h2>
+
+<h3><a name="_Toc121424628"><![if !supportLists]><span lang=EN-US
+style='mso-fareast-font-family:Arial;mso-ansi-language:EN-US'><span
+style='mso-list:Ignore'>4.1.1 </span></span><![endif]>Надежность</a><span
+style='mso-bookmark:_Toc121424628'></span><span lang=EN-US style='mso-ansi-language:
+EN-US'><o:p></o:p></span></h3>
+
+<p class=Body>В комплектации сервера желательно предусмотреть горячее
+резервирование встроенных источников питания.</p>
+
+<p class=Body>Функции терминала как персонального видеотелефона выполняются без
+участия сервера конференции.</p>
+
+<p class=Body>Функции сервера конференции может выполнять любой терминал.</p>
+
+<p class=Body>Любой терминал может выполнять функции ретранслятора медиапотоков.</p>
+
+<p class=Body>Терминалы и сервер допускают выключение питания в любой момент
+без повреждения аппаратных и базовых программных средств. </p>
+
+<p class=Body>Исключена возможность умышленного и неумышленного изменения
+базовых программных средств терминалов и сервера пользователями и обслуживающим
+персоналом. Базовые программные средства не изменяются при автоматическом или полуавтоматическом
+апгрейде, сбой во время апгрейда не меняет базовых программных средств. Базовые
+программные средства обеспечивают полную функциональность, имеющуюся на момент
+поставки. Имеется возможность автоматического или полуавтоматического возврата
+к базовым программным средствам.</p>
+
+<h3><a name="_Toc121424629"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>4.1.2 </span></span><![endif]>Структурная
+надежность</a></h3>
+
+<p class=Body>Для каждого узла в транспортной сети должны быть предусмотрены
+или запланированы избыточные канальные ресурсы для возможности соединения с
+другими узлами.</p>
+
+<h3><a name="_Toc121424630"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>4.1.3 </span></span><![endif]>Технологии</a></h3>
+
+<p class=Body>В качестве базовой среды для сеансов видеоконференций используется
+существующая корпоративная сеть передачи данных.</p>
+
+<p class=Body>В качестве базовой среды для видеотрансляций за пределы
+корпоративной сети используется сеть Интернет.</p>
+
+<p class=Body>Обеспечена возможность работы терминалов в режиме совместимости со
+старыми видеоконференцсистемами, соответствующими <span lang=EN-US
+style='mso-ansi-language:EN-US'>ITU</span>-<span lang=EN-US style='mso-ansi-language:
+EN-US'>T</span> Н.323,<span class=BodyHidden0>, Н.320</span> с сохранением их функциональности
+<span lang=EN-US style='mso-ansi-language:EN-US'>ITU</span>-<span lang=EN-US
+style='mso-ansi-language:EN-US'>T</span> Н.323, но с потерей дополнительных специфических
+возможностей <span lang=EN-US style='mso-ansi-language:EN-US'><span
+style='mso-field-code:" REF Brand \\h &#1; \\* MERGEFORMAT "'><span
+class=Brand><span lang=RU style='mso-ansi-language:RU'>VidicoR</span></span><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000060000004200720061006E0064000000</w:data>
+</xml><![endif]--></span></span>.</p>
+
+<p class=Body>Просмотр сеанса конференц-связи и записей архива «видео по
+запросу» осуществляется с помощью стандартного офисного компьютера под <span
+lang=EN-US style='mso-ansi-language:EN-US'>MS</span><span lang=EN-US> </span><span
+lang=EN-US style='mso-ansi-language:EN-US'>Windows</span>, с возможностью
+отправки текстовых сообщений (вопросов, комментариев) с веб-страницы на сервер,
+с возможностью распечатки на серверной стороне на принтере.</p>
+
+<h3><a name="_Toc121424631"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>4.1.4 </span></span><![endif]>Возможности
+дальнейшего развития</a></h3>
+
+<p class=Body>Технические решения по организации системы предусматривают
+возможность неограниченного добавления новых терминалов или серверов без изменения
+другого оборудования, программных средств сервера и настроек сети.</p>
+
+<p class=Body>Обеспечивается возможность внедрения новых сетевых технологий без
+замены оборудования с централизованным обновлением программных средств терминалов
+и сервера в автоматическом или полуавтоматическом режиме.</p>
+
+<h2><a name="_Toc121424632"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>4.2. </span></span><![endif]>Требования по
+функционированию оборудования КСВКС</a></h2>
+
+<p class=BodyPre>Терминалы системы поддерживают нижеследующие параметры:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>видеоизображение 4<span lang=EN-US
+style='mso-ansi-language:EN-US'>CIF</span> (720*576), <span lang=EN-US
+style='mso-ansi-language:EN-US'>QCIF</span><span lang=EN-US> </span>(360*288) и
+<span lang=EN-US style='mso-ansi-language:EN-US'>CIF</span> (176*144) до 25 кадров/сек;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>звук – от качества телефонной связи (моно,
+300..3400 Гц) до <span lang=EN-US style='mso-ansi-language:EN-US'>HiFi</span><span
+lang=EN-US> </span>(стерео, 20..20000Гц);</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>видеосистемы – PAL;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>алгоритмы видео-компрессии включают <span
+lang=EN-US style='mso-ansi-language:EN-US'>MPEG</span>-4, <span lang=EN-US
+style='mso-ansi-language:EN-US'>WMV</span>, <span lang=EN-US style='mso-ansi-language:
+EN-US'>H</span>.264 и др.;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>алгоритмы аудио-компрессии включают <span
+lang=EN-US style='mso-ansi-language:EN-US'>MPEG</span>2 <span lang=EN-US
+style='mso-ansi-language:EN-US'>Layer</span>3 (<span lang=EN-US
+style='mso-ansi-language:EN-US'>MP</span>3), <span lang=EN-US style='mso-ansi-language:
+EN-US'>WMV</span> и др.</p>
+
+<p class=Body>Обеспечивается возможность введения новых алгоритмов видео и
+аудио компрессии централизованным автоматическим или полуавтоматическим
+апгрейдом программных средств терминалов.</p>
+
+<p class=Body>Для совместимости находящимся в некоторых местах в эксплуатации устаревшим
+оборудованием стандарта <span lang=EN-US style='mso-ansi-language:EN-US'>H</span>.323
+терминалы системы имеют автоматически включаемый режим совместимости с <span
+lang=EN-US style='mso-ansi-language:EN-US'>H</span>.323 с обеспечением функций
+видеоконференцсвязи и параметров, определяемых <span lang=EN-US
+style='mso-ansi-language:EN-US'>H</span>.323, но с потерей специфических дополнительных
+возможностей системы на базе <span lang=EN-US style='mso-ansi-language:EN-US'><span
+style='mso-field-code:" REF Brand \\h &#1; \\* MERGEFORMAT "'><span
+class=Brand><span lang=RU style='mso-ansi-language:RU'>VidicoR</span></span><!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B0200000008000000060000004200720061006E0064000000</w:data>
+</xml><![endif]--></span></span>.</p>
+
+<p class=BodyPre>Базовое оборудование терминала в зависимости от помещения может
+быть выполнено в виде компактного системного блока в вариантах:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>для настольной установки,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>для установки в 19&quot; стойке,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>с возможностью удобной переноски и быстрой
+установки в новой точке.</p>
+
+<p class=Body>Все эти типы исполнения допускают подключение устройств ввода и
+вывода видео, звука, графической информации, обеспечивать возможность передачи и
+приема бумажных документов, обеспечивать сопряжение со стандартным видеооборудованием
+(видеомагнитофоны, <span lang=EN-US style='mso-ansi-language:EN-US'>DVD</span><span
+lang=EN-US> </span>проигрыватели, телевизоры, проекторы, плазменные или LCD
+панели и т.п.), допускать подключение перспективного оборудования по современным
+цифровым интерфейсам (<span lang=EN-US style='mso-ansi-language:EN-US'>IEEE</span>
+1394, <span lang=EN-US style='mso-ansi-language:EN-US'>USB</span> 2.0, <span
+lang=EN-US style='mso-ansi-language:EN-US'>DVI</span>, <span lang=EN-US
+style='mso-ansi-language:EN-US'>SPDIF</span>).</p>
+
+<p class=Body>При проведении многоточечных сеансов связи имеется возможность
+оперативного вызова и подключения/отключения абонентов председательствующим и
+его дублерами как к потенциальному участию, так и для выдачи на экраны
+участников и интернет-зрителей. Управление осуществляется с не требующим специального
+обучения интуитивно понятным интерфейсом с помощью сенсорного экрана,
+графического планшета или телефонного аппарата.</p>
+
+<p class=Body>При установлении многоточечных сеансов связи обеспечена
+возможность оперативного вызова абонента и изменения активных абонентов «на
+лету».</p>
+
+<p class=Body>Обеспечена возможность получения видеотрансляций из системы интернет-видеосвязи
+телекомпаниями с выполнением стандартов на вещательное качество, с возможностью
+передачи в прямой эфир с помощью имеющегося в телекомпаниях штатного оборудования.</p>
+
+<p class=Body>Сервер должен быть защищен от сбоев по электропитанию.</p>
+
+<p class=Body>Обеспечивается возможность работы любого терминала в режиме сервера
+многоточечной конференции без ограничений на количество участников.</p>
+
+<p class=Body>Обеспечиваться возможность централизованного автоматического или
+полуавтоматического обновления администратором программных средств терминалов с
+возможностью возврата к предыдущим версиям.</p>
+
+<p class=Body>Допускается круглосуточная работа терминалов в дежурном режиме с
+пробуждением по «звонку» от вызывающего терминала либо по групповому или
+индивидуальному вызову от председательствующего конференции.</p>
+
+<h2><a name="_Toc121424633"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>4.3. </span></span><![endif]>Требования к
+сетевой среде</a></h2>
+
+<h3><a name="_Toc121424634"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>4.3.1 </span></span><![endif]>Требования к
+сети передачи данных</a></h3>
+
+<h4 style='margin-left:0cm;text-indent:0cm'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>4.3.1.1 </span></span><![endif]>Сетевые
+протоколы</h4>
+
+<p class=Body>Для функционирования системы используется стек протоколов TCP/IP.
+Для подключения к серверу и работы с приложениями на сервере используются протоколы
+TCP и <span lang=EN-US style='mso-ansi-language:EN-US'>UDP</span>.</p>
+
+<p class=Body>При передаче потоков данных в пределах локальной сети, как в
+случае вещательной трансляции, так и для видеоконференции предпочтительно используется
+режим <span lang=EN-US style='mso-ansi-language:EN-US'>Multicast</span><span
+lang=EN-US> </span>без дублирования потоков в сети с автоматическим
+переключением на режим <span lang=EN-US style='mso-ansi-language:EN-US'>Unicast</span><span
+lang=EN-US> </span>тех терминалов, которые в силу настроек сети не могут
+принимать поток <span lang=EN-US style='mso-ansi-language:EN-US'>Multicast</span>.
+Режимы для разных терминалов применяются независимо друг от друга.</p>
+
+<h4 style='margin-left:0cm;text-indent:0cm'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>4.3.1.2 </span></span><![endif]>Требования
+к параметрам сети передачи данных</h4>
+
+<p class=BodyPre>Сеть передачи данных должна соответствовать следующим требованиям:</p>
+
+<p class=Bulleted style='mso-pagination:none'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>задержка пакетов не более 150 мс;</p>
+
+<p class=Bulleted style='mso-pagination:none'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>потери пакетов не более 1 %;</p>
+
+<p class=Bulleted style='mso-pagination:none'><![if !supportLists]><span
+style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>джиттер пакетов не более 20 мс;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>свободное прохождение трафика <span
+style='color:windowtext'>в соответствии с Н.323</span> между узлами КСВКС с применением
+<span lang=EN-US style='mso-ansi-language:EN-US'>Proxy</span>-<span lang=EN-US
+style='mso-ansi-language:EN-US'>server</span>, <span lang=EN-US
+style='mso-ansi-language:EN-US'>NAT</span>, <span lang=EN-US style='mso-ansi-language:
+EN-US'>Firewall</span> и других средств;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>поддержка <span lang=EN-US style='mso-ansi-language:
+EN-US'>QoS</span>, классификация трафика на основании информации <span
+lang=EN-US style='mso-ansi-language:EN-US'>L</span>2, <span lang=EN-US
+style='mso-ansi-language:EN-US'>L</span>3, <span lang=EN-US style='mso-ansi-language:
+EN-US'>L</span>4; </p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>поддержка инкапсуляции <span lang=EN-US
+style='mso-ansi-language:EN-US'>IEEE</span> 802.1<span lang=EN-US
+style='mso-ansi-language:EN-US'>Q</span> (<span lang=EN-US style='mso-ansi-language:
+EN-US'>VLAN</span>).</p>
+
+<h4 style='margin-left:0cm;text-indent:0cm'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>4.3.1.3 </span></span><![endif]>Требования
+к системе</h4>
+
+<p class=BodyPre>Функционирование системы обеспечивается при следующих параметрах
+сети:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>задержка пакетов: до 2000 мс,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>потери пакетов: до 3 % (до 1% – без потери
+качества),</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>джиттер пакетов: до 500 мс,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>обрыв канала связи с конкретным абонентом до 10
+с; после восстановления канала работа с данным абонентом должна автоматическим восстанавливаться
+без ухудшения параметров.</p>
+
+<p class=Body>Задержки, потери, джиттер пакетов и обрыв в канале связи с
+конкретным абонентом не влияют на ход конференции и параметры отображения у/от других
+абонентов.</p>
+
+<p class=BodyHidden>4.3.2<span style='mso-tab-count:1'>   </span>Требования к
+организации взаимодействия узлов КСВКС через корпоративную телефонную сеть</p>
+
+<p class=BodyHidden>4.3.2.1<span style='mso-spacerun:yes'>  
+</span>Функциональность узлового оборудования</p>
+
+<p class=BodyHidden>Предоставление услуг внутренней, местной телефонной связи,</p>
+
+<p class=BodyHidden>выход на сети других операторов для доступа к
+внутризоновой, междугородной,</p>
+
+<p class=BodyHidden>международной, телефонной связи по сети <span lang=EN-US
+style='mso-ansi-language:EN-US'>ISDN</span>,</p>
+
+<p class=BodyHidden>предоставление <span lang=EN-US style='mso-ansi-language:
+EN-US'>ISDN</span><span lang=EN-US> </span><span lang=EN-US style='mso-ansi-language:
+EN-US'>PRI</span> и <span lang=EN-US style='mso-ansi-language:EN-US'>BRI</span>-линий
+(<span lang=EN-US style='mso-ansi-language:EN-US'>EDSS</span>1),</p>
+
+<p class=BodyHidden>4.3.3<span style='mso-tab-count:1'>   </span>Требования к
+транспортной сети</p>
+
+<p class=BodyHidden>Минимальная пропускная способность таких линий связи должна
+составлять от 128 Кбит/с для линий <span lang=EN-US style='mso-ansi-language:
+EN-US'>PRI</span>, <span lang=EN-US style='mso-ansi-language:EN-US'>QSIG</span>
+- 7x64 Кбит/с, с учетом сигнального канала. Должно быть предусмотрено
+резервирование канала в случае выхода из строя основного канала.</p>
+
+<p class=BodyHidden>4.3.3.1<span style='mso-spacerun:yes'>   </span>Требования
+к поддерживаемым типам сигнализацией узлового оборудования</p>
+
+<p class=BodyHidden><span lang=EN-US style='mso-ansi-language:EN-US'>EDSS</span>1
+(в соотв. с <span lang=EN-US style='mso-ansi-language:EN-US'>ETS</span> 300 011
+и спецификациями для национальной сети России),</p>
+
+<p class=BodyHidden><span lang=EN-US style='mso-ansi-language:EN-US'>QSIG
+(ETS300 011).</span></p>
+
+<p class=BodyHidden><b><span style='letter-spacing:.05pt'>4.3.3.2</span></b><span
+style='mso-tab-count:1'>   </span>Требования к емкости оборудования УПАТС.</p>
+
+<p class=BodyHidden>Общая емкость линий УПАТС для подключения <span lang=EN-US
+style='mso-ansi-language:EN-US'>MCU</span><span lang=EN-US> </span>– не менее 2<span
+lang=EN-US style='mso-ansi-language:EN-US'>xPRI</span> (<span lang=EN-US
+style='mso-ansi-language:EN-US'>EDSS</span>1).</p>
+
+<p class=BodyHidden>Сопряжение узлового оборудования УПАТС с опорной
+транспортной сетью осуществляется на уровне Е1, характеристика соединения
+соответствует <span lang=EN-US style='mso-ansi-language:EN-US'>ITU</span>-<span
+lang=EN-US style='mso-ansi-language:EN-US'>T</span><span lang=EN-US> </span><span
+lang=EN-US style='mso-ansi-language:EN-US'>G</span>.703.6.</p>
+
+<p class=BodyHidden>4.3.3.3<span style='mso-tab-count:1'>   </span>Качество
+обслуживания УПАТС</p>
+
+<p class=BodyHidden>Суммарные потери вызовов от терминала до терминала КСВКС не
+должны превышать: при связи абонентов внутри корпоративной сети – 1,0 %, при
+междугородней связи – 1,5 % (на участке до АМТС – 0,05).</p>
+
+<h3><a name="_Toc121424635"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>4.3.2 </span></span><![endif]><span
+style='mso-bidi-font-family:"Times New Roman"'>Интерфейсы</span></a></h3>
+
+<h4 style='margin-left:0cm;text-indent:0cm'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>4.3.2.1 </span></span><![endif]>Подключение
+оборудования системы интернет-видеосвязи к сети</h4>
+
+<p class=Body>Сопряжение оборудования КСВКС с сетью осуществляется <span
+class=BodyHidden0>для: Н.323</span> по интерфейсу 10/100 <span lang=EN-US
+style='mso-ansi-language:EN-US'>Base</span>-<span lang=EN-US style='mso-ansi-language:
+EN-US'>T</span><span style='color:silver'>, <span class=BodyHidden0>терминалы
+КСВКС Н.320 по интерфейсу 2xPRI (EDSS1) для MCU</span></span>.</p>
+
+<h4 style='margin-left:0cm;text-indent:0cm'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>4.3.2.2 </span></span><![endif]>Подключение
+оборудования системы интернет-видеосвязи к существующему аудио- и видеооборудованию</h4>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>К видеооборудованию – аналоговые интерфейсы <span
+lang=EN-US style='mso-ansi-language:EN-US'>S</span>-<span lang=EN-US
+style='mso-ansi-language:EN-US'>Video</span>, <span lang=EN-US
+style='mso-ansi-language:EN-US'>RCA</span>, <span lang=EN-US style='mso-ansi-language:
+EN-US'>SVGA</span>, цифровые интерфейсы <span lang=EN-US style='mso-ansi-language:
+EN-US'>DVI</span>, IEEE 1394.</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>К аудиооборудованию – аналоговые интерфейсы RCA
+стерео, цифровые интерфейсы <span lang=EN-US style='mso-ansi-language:EN-US'>SPDIF</span>
+(оптический и <span lang=EN-US style='mso-ansi-language:EN-US'>RCA</span>), IEEE
+1394, <span lang=EN-US style='mso-ansi-language:EN-US'>USB</span>2.0.</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>От видеооборудования – аналоговые интерфейсы S-Video
+и RCA, цифровые интерфейсы IEEE 1394 и <span lang=EN-US style='mso-ansi-language:
+EN-US'>USB</span>2.0.</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>От аудиооборудования – аналоговые интерфейсы RCA,
+цифровые интерфейсы <span lang=EN-US style='mso-ansi-language:EN-US'>SPDIF</span>
+(оптический и <span lang=EN-US style='mso-ansi-language:EN-US'>RCA</span>), IEEE
+1394, <span lang=EN-US style='mso-ansi-language:EN-US'>USB</span>2.0, к
+микрофонам из стандартного комплекта поставки – <span lang=EN-US
+style='mso-ansi-language:EN-US'>RJ</span>-11.</p>
+
+<h2><a name="_Toc121424636"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>4.4. </span></span><![endif]>Требования к
+персоналу</a></h2>
+
+<p class=Body>В штате подразделения, осуществляющего обслуживание системы и
+систем связи на объекте, должны иметься не менее 1-го сотрудника, прошедшего
+инструктаж по обслуживанию и эксплуатации системы.</p>
+
+<h1><a name="_Toc121424637"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>5. </span></span><![endif]>Установка
+оборудования и подключение к сети передачи данных</a></h1>
+
+<h2><a name="_Toc121424638"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>5.1. </span></span><![endif]>Инсталляция и
+подключение сервера</a></h2>
+
+<h3><a name="_Toc121424639"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>5.1.1 </span></span><![endif]>Инсталляция
+оборудования в серверной</a></h3>
+
+<p class=Body>Сервер должен быть установлен в помещении серверной в 19&quot;
+стойке.</p>
+
+<p class=Body>Сервер подключается к <span lang=EN-US style='mso-ansi-language:
+EN-US'>IP</span>-сети передачи данных (<span lang=EN-US style='mso-ansi-language:
+EN-US'>LAN</span> здания) по линии <span lang=EN-US style='mso-ansi-language:
+EN-US'>Ethernet</span> (10/100 <span lang=EN-US style='mso-ansi-language:EN-US'>BaseT</span>).</p>
+
+<p class=BodyHidden>Сервер подключается к публичной сети <span lang=EN-US
+style='mso-ansi-language:EN-US'>ISDN</span> через установленную в здании УПАТС
+(часть корпоративной телефонной сети) по 2-м потокам <span lang=EN-US
+style='mso-ansi-language:EN-US'>E</span>1<sub><span lang=EN-US
+style='mso-ansi-language:EN-US'>f</span></sub><span lang=EN-US> </span><span
+lang=EN-US style='mso-ansi-language:EN-US'>ISDN</span><span lang=EN-US> </span><span
+lang=EN-US style='mso-ansi-language:EN-US'>PRI</span>, <span lang=EN-US
+style='mso-ansi-language:EN-US'>EDSS</span>1.</p>
+
+<h3><a name="_Toc121424640"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>5.1.2 </span></span><![endif]>Подключение сервера
+к сети передачи данных и его настройка</a></h3>
+
+<p class=Body>Настройка сервера должна производиться согласно заданию на
+программирование.</p>
+
+<h2><a name="_Toc121424641"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>5.2. </span></span><![endif]>Установка и
+подключение терминального оборудования</a></h2>
+
+<p class=Body>Терминальное оборудование устанавливается в заранее указанных и
+подготовленных помещениях.</p>
+
+<p class=Body>В зависимости от типа помещения и типа оборудования КСВКС установка
+осуществляется либо в 19&quot; стойку, либо на офисное рабочее место.</p>
+
+<h2><a name="_Toc121424642"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>5.3. </span></span><![endif]>Оборудование управления
+и мониторинга системы</a></h2>
+
+<p class=Body>Система позволяет осуществлять как управление проведением конференции
+в целом, путем управления сервером, так и управление отдельными терминалами.
+Управление вышеперечисленным оборудованием осуществляется с персонального компьютера
+по протоколу TCP/IP через специальное ПО или встроенный интерфейс терминалов.</p>
+
+<h4 style='margin-left:0cm;text-indent:0cm'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:Arial;mso-ansi-language:EN-US'><span
+style='mso-list:Ignore'>5.3.1.1 </span></span><![endif]>Пульт председательствующего<span
+lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></h4>
+
+<p class=Body>Пульт председательствующего предназначен для выбора участников
+видеоконференции, вызова участников, определения участников, которым предоставляется
+слово и которые будут видны на экранах всех участников, включения и выключения
+трансляции видеоконференции для зрителей на интернет-сайте или в локальной сети
+организации. Выполнение данных функций должно выполняться с интуитивно-понятным
+интерфейсом с применением сенсорного экрана или графического планшета.</p>
+
+<p class=Body>Количество дублирующих пультов председательствующего не ограничено.</p>
+
+<p class=Body>Требования по составу оборудования и программных средств:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:EN-US'>IBM</span>-совместимый
+персональный компьютер;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>операционная система <span lang=EN-US
+style='mso-ansi-language:EN-US'>Windows</span><span lang=EN-US> </span><span
+lang=EN-US style='mso-ansi-language:EN-US'>XP</span><span lang=EN-US> </span>или
+-2003.с веб-браузером (типа <span lang=EN-US style='mso-ansi-language:EN-US'>IE</span>6);</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:EN-US'>LCD</span><span
+lang=EN-US> </span>экран, желательно – сенсорный;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>подключение к <span lang=EN-US style='mso-ansi-language:
+EN-US'>IP</span>-сети<span lang=EN-US style='mso-ansi-language:EN-US'>.</span></p>
+
+<h4 style='margin-left:0cm;text-indent:0cm'><![if !supportLists]><span
+style='mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>5.3.1.2 </span></span><![endif]>Рабочая
+станция администратора</h4>
+
+<p class=Body>Рабочая станция администратора предназначена для инициализации и
+администрирования сервера, удаленной настройки терминалов, управления
+(создание, удаление, изменение) конференциями, дублирования функций пульта
+председательствующего, мониторинга <span lang=EN-US style='mso-ansi-language:
+EN-US'>MCU</span>, подготовки видеозаписей, ведения видеоархива и системы
+«видео по запросу», и т.п.</p>
+
+<p class=Body>Требования по составу оборудования <span
+style='mso-spacerun:yes'> </span>и программных средств: </p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:EN-US'>IBM</span>-совместимый
+персональный компьютер.</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>операционная система <span lang=EN-US
+style='mso-ansi-language:EN-US'>Windows</span><span lang=EN-US> </span><span
+lang=EN-US style='mso-ansi-language:EN-US'>XP</span><span lang=EN-US> </span>или
+-2003 с веб-браузером (типа <span lang=EN-US style='mso-ansi-language:EN-US'>IE</span>6);</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-ansi-language:EN-US'>LCD</span><span
+lang=EN-US> </span>экран;</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>подключение к <span lang=EN-US style='mso-ansi-language:
+EN-US'>IP</span>-сети<span lang=EN-US style='mso-ansi-language:EN-US'>.</span></p>
+
+<h2><a name="_Toc121424643"><![if !supportLists]><span style='mso-fareast-font-family:
+Arial'><span style='mso-list:Ignore'>5.4. </span></span><![endif]>Требования к
+конструкции системы и монтажу технических средств</a></h2>
+
+<p class=Body>Конструкция системы обеспечивает удобство эксплуатации и
+технического обслуживания, взаимозаменяемость сменных однотипных составных
+частей, ремонтопригодность, защиту от несанкционированного доступа к
+компонентам системы, выполнение требований &quot;Санитарных правил и
+норм&quot;.</p>
+
+</div>
+
+</body>
+
+</html>
