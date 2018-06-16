@@ -1,0 +1,1169 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Vidicor_BTV.files/filelist.xml">
+<link rel=Edit-Time-Data href="Vidicor_BTV.files/editdata.mso">
+<link rel=OLE-Object-Data href="Vidicor_BTV.files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title> </title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PersonName" downloadurl="http://www.microsoft.com"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Vladimir V. Prokhorov</o:Author>
+  <o:LastAuthor>Vladimir V. Prokhorov</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>892</o:TotalTime>
+  <o:LastPrinted>2007-02-05T17:54:00Z</o:LastPrinted>
+  <o:Created>2007-02-05T18:15:00Z</o:Created>
+  <o:LastSaved>2007-02-05T18:15:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>787</o:Words>
+  <o:Characters>4490</o:Characters>
+  <o:Company>IMM UrBr RAS</o:Company>
+  <o:Lines>37</o:Lines>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5267</o:CharactersWithSpaces>
+  <o:Version>11.5703</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:AutoHyphenation/>
+  <w:HyphenationZone>17</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:"Arial Black";
+	panose-1:2 11 10 4 2 1 2 2 2 4;
+	mso-font-charset:204;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-update:auto;
+	mso-style-next:Body;
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h3
+	{mso-style-update:auto;
+	mso-style-next:Обычный;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+p.Body, li.Body, div.Body
+	{mso-style-name:Body;
+	mso-style-update:auto;
+	mso-style-parent:Текст;
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-indent:17.85pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.TableNumber, li.TableNumber, div.TableNumber
+	{mso-style-name:TableNumber;
+	mso-style-update:auto;
+	mso-style-parent:Body;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l0 level1 lfo1;
+	tab-stops:list 36.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;}
+p.TableBody, li.TableBody, div.TableBody
+	{mso-style-name:TableBody;
+	mso-style-update:auto;
+	margin-top:0cm;
+	margin-right:28.25pt;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:0cm 47.95pt 95.9pt 143.85pt 191.8pt 239.75pt 287.7pt 335.65pt 383.6pt 431.55pt 479.5pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	layout-grid-mode:line;}
+p.TableTitle, li.TableTitle, div.TableTitle
+	{mso-style-name:TableTitle;
+	mso-style-update:auto;
+	mso-style-parent:Body;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:17.85pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.TableCenter, li.TableCenter, div.TableCenter
+	{mso-style-name:TableCenter;
+	mso-style-update:auto;
+	mso-style-parent:Body;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:17.85pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.TableBodyCenter, li.TableBodyCenter, div.TableBodyCenter
+	{mso-style-name:TableBodyCenter;
+	mso-style-update:auto;
+	mso-style-parent:Body;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:17.85pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.Bulleted, li.Bulleted, div.Bulleted
+	{mso-style-name:Bulleted;
+	mso-style-update:auto;
+	mso-style-parent:TableNumber;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:17.85pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-17.85pt;
+	mso-pagination:widow-orphan;
+	mso-list:l1 level1 lfo2;
+	tab-stops:list 18.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.Title, li.Title, div.Title
+	{mso-style-name:Title;
+	mso-style-update:auto;
+	mso-style-parent:Body;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	text-indent:17.85pt;
+	mso-pagination:widow-orphan;
+	font-size:60.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:red;
+	mso-ansi-language:EN-US;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.Reference, li.Reference, div.Reference
+	{mso-style-name:Reference;
+	mso-style-update:auto;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	mso-pagination:none;
+	tab-stops:list 36.0pt left 15.0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	layout-grid-mode:line;}
+p.Figure, li.Figure, div.Figure
+	{mso-style-name:Figure;
+	mso-style-update:auto;
+	mso-style-link:"Figure Знак";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	layout-grid-mode:line;}
+p.SubTitle, li.SubTitle, div.SubTitle
+	{mso-style-name:SubTitle;
+	mso-style-update:auto;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-hyphenate:none;
+	font-size:36.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:blue;
+	font-weight:bold;
+	mso-bidi-font-weight:normal;}
+p.FigureTitle, li.FigureTitle, div.FigureTitle
+	{mso-style-name:Figure_Title;
+	mso-style-update:auto;
+	mso-style-parent:"";
+	mso-style-link:"Figure_Title Знак";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	layout-grid-mode:line;}
+span.Figure0
+	{mso-style-name:"Figure Знак";
+	mso-style-locked:yes;
+	mso-style-link:Figure;
+	mso-ansi-font-size:12.0pt;
+	mso-ansi-language:RU;
+	mso-fareast-language:RU;
+	mso-bidi-language:AR-SA;
+	layout-grid-mode:line;}
+span.FigureTitle0
+	{mso-style-name:"Figure_Title Знак";
+	mso-style-locked:yes;
+	mso-style-parent:"Figure Знак";
+	mso-style-link:Figure_Title;
+	mso-ansi-font-size:12.0pt;
+	mso-ansi-language:RU;
+	mso-fareast-language:RU;
+	mso-bidi-language:AR-SA;
+	layout-grid-mode:line;}
+p.FigureFramed, li.FigureFramed, div.FigureFramed
+	{mso-style-name:Figure_Framed;
+	mso-style-update:auto;
+	mso-style-parent:Figure;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 392.6pt;
+	border:none;
+	mso-border-alt:solid windowtext 1.0pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt;
+	mso-border-shadow:yes;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	layout-grid-mode:line;}
+p.Attributes, li.Attributes, div.Attributes
+	{mso-style-name:Attributes;
+	mso-style-update:auto;
+	mso-style-parent:Body;
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:28.4pt;
+	text-indent:-28.4pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:blue;}
+p.FigureTable, li.FigureTable, div.FigureTable
+	{mso-style-name:Figure_Table;
+	mso-style-update:auto;
+	mso-style-parent:Figure;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	font-size:12.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;
+	layout-grid-mode:line;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:1.0cm 1.0cm 1.0cm 1.0cm;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+@page Section2
+	{size:841.9pt 595.3pt;
+	mso-page-orientation:landscape;
+	margin:1.0cm 1.0cm 1.0cm 1.0cm;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-paper-source:0;}
+div.Section2
+	{page:Section2;}
+@page Section3
+	{size:595.3pt 841.9pt;
+	margin:1.0cm 1.0cm 1.0cm 1.0cm;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-vertical-page-align:middle;
+	mso-paper-source:0;}
+div.Section3
+	{page:Section3;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1643577389;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1358249082 -1560771070 68747289 68747291 68747279 68747289 68747291 68747279 68747289 68747291;}
+@list l0:level1
+	{mso-level-style-link:TableNumber;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:1712219799;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-237237816 -1188902414 68747289 68747291 68747279 68747289 68747291 68747279 68747289 68747291;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:Bulleted;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Сетка таблицы";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050">
+  <o:colormru v:ext="edit" colors="#fcc"/>
+  <o:colormenu v:ext="edit" fillcolor="none" strokecolor="#f9c"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+  <o:regrouptable v:ext="edit">
+   <o:entry new="1" old="0"/>
+  </o:regrouptable>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=RU link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoPlainText align=right style='text-align:right'><span lang=EN-US
+style='mso-ansi-language:EN-US'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1027" type="#_x0000_t75" style='width:115.5pt;
+ height:37.5pt'>
+ <v:imagedata src="Vidicor_BTV.files/image001.wmz" o:title="Vidicor_ru"
+  croptop="1755f" cropbottom="1755f" cropleft="592f" cropright="592f"/>
+</v:shape><![endif]--><![if !vml]><img width=154 height=50
+src="Vidicor_BTV.files/image002.gif" v:shapes="_x0000_i1027"><![endif]><o:p></o:p></span></p>
+
+<p class=Title><span lang=EN-US>Vidicor</span><span lang=EN-US
+style='mso-ansi-language:RU'> </span><span lang=EN-US>BTV/HD</span><span
+style='mso-ansi-language:RU'><o:p></o:p></span></p>
+
+<p class=SubTitle>Система для проведения телерепортажей, телемостов, интернет-трансляций</p>
+
+<p class=MsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=Figure><span lang=EN-US style='mso-ansi-language:EN-US'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1028" type="#_x0000_t75" style='width:495.75pt;height:357.75pt'>
+ <v:imagedata src="Vidicor_BTV.files/image003.jpg" o:title="IMG_0055"/>
+</v:shape><![endif]--><![if !vml]><img width=661 height=477
+src="Vidicor_BTV.files/image004.jpg" v:shapes="_x0000_i1028"><![endif]><o:p></o:p></span></p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=366 valign=top style='width:274.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=FigureTable><span lang=EN-US><!--[if gte vml 1]><v:shape id="_x0000_i1032"
+   type="#_x0000_t75" style='width:304.5pt;height:145.5pt'>
+   <v:imagedata src="Vidicor_BTV.files/image005.jpg" o:title="Vidicor_BTV"
+    gain="72818f" blacklevel="3277f"/>
+  </v:shape><![endif]--><![if !vml]><img width=406 height=194
+  src="Vidicor_BTV.files/image006.jpg" v:shapes="_x0000_i1032"><![endif]></span></p>
+  </td>
+  <td style='padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=FigureTable><span lang=EN-US><!--[if gte vml 1]><v:shape id="_x0000_s1027"
+   type="#_x0000_t75" style='width:184.75pt;height:138.95pt;
+   mso-position-horizontal-relative:char;mso-position-vertical-relative:line'
+   o:bordertopcolor="this" o:borderleftcolor="this" o:borderbottomcolor="this"
+   o:borderrightcolor="this" stroked="t" strokeweight="1.5pt">
+   <v:stroke linestyle="thinThin"/>
+   <v:imagedata src="Vidicor_BTV.files/image007.png" o:title="" croptop="2419f"
+    cropbottom="2419f" cropright="968f"/>
+   <w:wrap type="none"/>
+   <w:anchorlock/>
+  </v:shape><![endif]--><![if !vml]><img width=250 height=189
+  src="Vidicor_BTV.files/image008.gif" v:shapes="_x0000_s1027"><![endif]></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:RU;mso-fareast-language:RU;mso-bidi-language:
+AR-SA'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=Body>Системы <b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>Vidicor</span><span lang=EN-US> </span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>BTV</span></b><span lang=EN-US> </span>и <b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='mso-ansi-language:EN-US'>Vidicor</span><span
+lang=EN-US> </span></b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>BTV</span>/</b><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='mso-ansi-language:EN-US'>HD</span></b><span
+lang=EN-US> </span>предназначены для выполнения таких задач, как:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>реализация двусторонних и многосторонних телемостов,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>прямая трансляция и перегон телевизионных
+материалов в телекомпанию через цифровой канал (напр., в составе мобильного спутникового
+комплекса) и из телекомпании в филиалы,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>трансляция <st1:PersonName ProductID="в Интернет"
+w:st="on">в Интернет</st1:PersonName> с приемом на стандартные компьютеры
+(построение сетей <span lang=EN-US style='mso-ansi-language:EN-US'>IP</span>-телевидения)</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>трансляция через спутниковый канал зрителям,
+имеющим оборудование одностороннего приема. </p>
+
+<p class=Body>Основной частью систем являются <b style='mso-bidi-font-weight:
+normal'>процессоры Vidicor BTV передачи и приема аудио и видеосигналов</b>,
+осуществляющие захват от источника и сжатие данных, передачу по каналу связи
+для различных типов каналов, прием из канала, декомпрессию, синхронизацию видео
+и звука (абсолютную и относительную), выдачу результирующих вид<span
+class=GramE>ео и ау</span>дио сигналов.</p>
+
+<p class=Body>Имеется несколько модификаций процессора <b style='mso-bidi-font-weight:
+normal'>Vidicor BTV</b>, отличающихся объемом возможностей:</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='mso-ansi-language:EN-US'>Vidicor</span><span lang=EN-US> </span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>BTV</span>-</b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>TR</span></b> обеспечивает как передачу, так и
+прием видео и звука (два таких блока обеспечивают двустороннюю <span
+class=SpellE>видеоаудиосвязь</span>,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='mso-ansi-language:EN-US'>Vidicor</span><span lang=EN-US> </span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>BTV</span>-</b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>T</span></b> обеспечивает передачу видео и
+звука и прием только звука,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='mso-ansi-language:EN-US'>Vidicor</span><span lang=EN-US> </span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>BTV</span>-</b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>R</span></b> обеспечивает только прием видео и
+звука (совместно с <b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>Vidicor</span><span lang=EN-US> </span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>BTV</span>-</b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>T</span></b> обеспечивает однонаправленный
+видео-аудиоканал),</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='mso-ansi-language:EN-US'>Vidicor</span><span lang=EN-US> </span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>BTV</span>-</b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>R</span>S</b><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='mso-ansi-language:EN-US'>T</span></b>
+обеспечивает прием видео и звука и передачу только звука (совместно с <b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>Vidicor</span><span lang=EN-US> </span></b><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='mso-ansi-language:EN-US'>BTV</span>-</b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>T</span></b> обеспечивает однонаправленный видео-аудиоканал и обратный звуковой
+канал).</p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=366 style='width:274.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Figure><span lang=EN-US style='mso-ansi-language:EN-US'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1029" type="#_x0000_t75" style='width:254.25pt;height:118.5pt'
+   o:ole="">
+   <v:imagedata src="Vidicor_BTV.files/image009.emz" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=339 height=158
+  src="Vidicor_BTV.files/image010.gif" v:shapes="_x0000_i1029"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1029"
+    DrawAspect="Content" ObjectID="_1232222510">
+   </o:OLEObject>
+  </xml><![endif]--></span></p>
+  </td>
+  <td width=366 style='width:274.7pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Figure><span lang=EN-US style='mso-ansi-language:EN-US'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1030" type="#_x0000_t75" style='width:253.5pt;height:64.5pt'
+   o:ole="">
+   <v:imagedata src="Vidicor_BTV.files/image011.emz" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=338 height=86
+  src="Vidicor_BTV.files/image012.gif" v:shapes="_x0000_i1030"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1030"
+    DrawAspect="Content" ObjectID="_1232222512">
+   </o:OLEObject>
+  </xml><![endif]--></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=Body>Модификации процессора <b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='mso-ansi-language:EN-US'>Vidicor</span><span lang=EN-US> </span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>BTV</span>/</b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>HD</span></b><span lang=EN-US> </span>(напр., <b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>Vidicor</span><span lang=EN-US> </span></b><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='mso-ansi-language:EN-US'>BTV</span>/</b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>HD</span>-</b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>TR</span></b>) поддерживают дополнительно к <b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>Vidicor</span><span lang=EN-US> </span></b><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='mso-ansi-language:EN-US'>BTV</span></b><span
+lang=EN-US> </span>передачу и/или прием видео в разрешении <b style='mso-bidi-font-weight:
+normal'><span style='color:red'>телевидения высокой четкости (1440</span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='color:red;
+mso-ansi-language:EN-US'>x</span><span style='color:red'>1080) и промежуточных
+(напр., 1280</span></b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='color:red;mso-ansi-language:EN-US'>x</span><span style='color:red'>1024,
+1024</span></b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='color:red;mso-ansi-language:EN-US'>x</span><span style='color:red'>768,
+1280</span></b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='color:red;mso-ansi-language:EN-US'>x</span><span style='color:red'>768)</span></b>
+для видеокамер HDV через интерфейс <span lang=EN-US style='mso-ansi-language:
+EN-US'>IEEE</span>-1394 (рекомендуемый поток в канале для разрешения <b
+style='mso-bidi-font-weight:normal'><span style='color:red'>1440</span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='color:red;
+mso-ansi-language:EN-US'>x</span><span style='color:red'>1080 </span></b>– 6
+Мбит/с).</p>
+
+<p class=Body>В зависимости от задач система должна включать набор процессоров
+необходимых типов. В состав оборудования может включаться центральный пульт
+управления <b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>Vidicor</span><span lang=EN-US> </span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>BTV</span>-</b><b style='mso-bidi-font-weight:normal'><span lang=EN-US
+style='mso-ansi-language:EN-US'>C</span></b>, позволяющий осуществлять
+централизованное управление используемым комплектом процессоров как единой системой.</p>
+
+<p class=Body>Передача видео и звука может осуществляться как с передающего
+процессора <b style='mso-bidi-font-weight:normal'>Vidicor </b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>BTV</span></b><span lang=EN-US> </span>на принимающий процессор, так и с
+передающего процессора на <b style='mso-bidi-font-weight:normal'>стандартный
+персональный компьютер</b> (без ограничений на количество принимающих точек).</p>
+
+<p class=Body><!--[if gte vml 1]><v:group id="_x0000_s1059" style='position:absolute;
+ left:0;text-align:left;margin-left:0;margin-top:16.15pt;width:513pt;height:108pt;
+ z-index:-1;mso-position-horizontal:center' coordorigin="747,11907"
+ coordsize="10260,2160">
+ <v:group id="_x0000_s1042" style='position:absolute;left:747;top:11907;
+  width:4860;height:2160' coordorigin="6507,12807" coordsize="4860,2160">
+  <v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+   <v:stroke joinstyle="miter"/>
+   <v:path gradientshapeok="t" o:connecttype="rect"/>
+  </v:shapetype><v:shape id="_x0000_s1043" type="#_x0000_t202" style='position:absolute;
+   left:6507;top:12807;width:4860;height:2160' filled="f" stroked="f">
+   <v:textbox style='mso-next-textbox:#_x0000_s1043' inset="0,0,0,0">
+    <![if !mso]>
+    <table cellpadding=0 cellspacing=0 width="100%">
+     <tr>
+      <td><![endif]>
+      <div>
+      <p class=MsoNormal align=center style='text-align:center'><span
+      style='font-size:36.0pt;font-family:"Arial Black";color:#99CCFF'>TV<o:p></o:p></span></p>
+      <p class=MsoNormal align=center style='text-align:center'><span
+      lang=EN-US style='font-size:36.0pt;font-family:"Arial Black";color:#99CCFF;
+      mso-ansi-language:EN-US'>720x576<o:p></o:p></span></p>
+      </div>
+      <![if !mso]></td>
+     </tr>
+    </table>
+    <![endif]></v:textbox>
+  </v:shape><v:line id="_x0000_s1044" style='position:absolute' from="6867,12987"
+   to="10827,14967" strokecolor="#f9c" strokeweight="4.5pt"/>
+  <v:line id="_x0000_s1045" style='position:absolute;flip:x' from="6867,12987"
+   to="11007,14967" strokecolor="#f9c" strokeweight="4.5pt"/>
+ </v:group><v:shape id="_x0000_s1047" type="#_x0000_t202" style='position:absolute;
+  left:6147;top:11907;width:4860;height:2160' o:regroupid="1" filled="f"
+  stroked="f">
+  <v:textbox style='mso-next-textbox:#_x0000_s1047' inset="0,0,0,0">
+   <![if !mso]>
+   <table cellpadding=0 cellspacing=0 width="100%">
+    <tr>
+     <td><![endif]>
+     <div>
+     <p class=MsoNormal align=center style='text-align:center'><span
+     lang=EN-US style='font-size:36.0pt;font-family:"Arial Black";color:#99CCFF;
+     mso-ansi-language:EN-US'>HD</span><span style='font-size:36.0pt;
+     font-family:"Arial Black";color:#99CCFF'>V<o:p></o:p></span></p>
+     <p class=MsoNormal align=center style='text-align:center'><span
+     lang=EN-US style='font-size:36.0pt;font-family:"Arial Black";color:#99CCFF;
+     mso-ansi-language:EN-US'>1440x1080<o:p></o:p></span></p>
+     </div>
+     <![if !mso]></td>
+    </tr>
+   </table>
+   <![endif]></v:textbox>
+ </v:shape></v:group><![endif]--><![if !vml]><span style='mso-ignore:vglayout;
+position:absolute;z-index:-1;left:0px;margin-left:0px;margin-top:22px;
+width:688px;height:149px'><img width=688 height=149
+src="Vidicor_BTV.files/image013.gif" v:shapes="_x0000_s1059 _x0000_s1042 _x0000_s1043 _x0000_s1044 _x0000_s1045 _x0000_s1047"></span><![endif]>Система
+обеспечивает канал эфирного звука, а также <b style='mso-bidi-font-weight:normal'>канал
+<span class=GramE>служебной</span> аудиосвязи</b>. Кроме этого обеспечивается
+передача оператору и ведущему в удаленную точку служебных сигналов “<i
+style='mso-bidi-font-style:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>Tally</span><span lang=EN-US> </span></i><i style='mso-bidi-font-style:
+normal'><span lang=EN-US style='mso-ansi-language:EN-US'>Control</span></i>” от
+<span class=SpellE>видеомикшерного</span> пульта («в эфире», «готовность/<span
+class=GramE>следующий</span>», «свободный»).</p>
+
+<p class=Body>Обеспечивается работа с аналоговыми (композит и <span
+class=SpellE>S-Video</span>) и цифровыми (IEEE-1394 и, опционально, SDI)
+источниками видео, а также вывод принятого видео на аналоговый (композит и <span
+class=SpellE>S-Video</span>) или цифровой (IEEE-1394 и, опционально, SDI)
+выходы. Возможно одновременное подключение нескольких видеокамер с
+переключением их с центрального пульта управления.</p>
+
+<p class=Body>Система может использоваться с <span lang=EN-US style='mso-ansi-language:
+EN-US'>IP</span><span lang=EN-US> </span>каналами любого типа, как
+двунаправленными, так и однонаправленными (например, с приемом на принимающую
+спутниковую систему без канала обратной связи). Связь может осуществляться с
+потоками данных от 50 кбит/с до 500 Мбит/<span class=GramE>с</span>.</p>
+
+<p class=Body>Режим конфиденциальной связи VPN поддерживается.</p>
+
+<p class=Body>Используемые протоколы: <span lang=EN-US style='mso-ansi-language:
+EN-US'>UDP</span>, <span lang=EN-US style='mso-ansi-language:EN-US'>TCP</span>,
+<span lang=EN-US style='mso-ansi-language:EN-US'>UDP</span><span lang=EN-US> </span><span
+lang=EN-US style='mso-ansi-language:EN-US'>multicast</span>, <span lang=EN-US
+style='mso-ansi-language:EN-US'>Vidicor</span>-<span lang=EN-US
+style='mso-ansi-language:EN-US'>UDP</span>, <span lang=EN-US style='mso-ansi-language:
+EN-US'>Vidicor</span>-<span lang=EN-US style='mso-ansi-language:EN-US'>UDP</span><span
+lang=EN-US> </span><span lang=EN-US style='mso-ansi-language:EN-US'>multicast</span>.</p>
+
+<p class=Body>Параметры передачи (зависят от канала связи):</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>видеоканал: до 720*576 точек, 25 <span
+class=GramE>к</span>/с (<span lang=EN-US style='mso-ansi-language:EN-US'>c</span>
+2 Мбит/с) в TV <span lang=EN-US style='mso-ansi-language:EN-US'>m</span><span
+class=SpellE>ode</span>, <b style='mso-bidi-font-weight:normal'><span
+style='color:red'>до 1440*1080i в HDV <span class=SpellE>mode</span></span></b>,</p>
+
+<p class=Bulleted><![if !supportLists]><span style='font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol'><span
+style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>аудиоканалы: диапазон частот сигналов до
+20..20000 Гц.</p>
+
+<p class=Body>Ниже приводятся примеры различных применений системы <b
+style='mso-bidi-font-weight:normal'>Vidicor BTV</b>.</p>
+
+<div style='mso-element:para-border-div;border:solid windowtext 1.0pt;
+mso-border-alt:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=FigureFramed style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1031" type="#_x0000_t75" style='width:537.75pt;height:332.25pt'
+ o:ole="">
+ <v:imagedata src="Vidicor_BTV.files/image014.emz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=717 height=443
+src="Vidicor_BTV.files/image015.gif" v:shapes="_x0000_i1031"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1031"
+  DrawAspect="Content" ObjectID="_1232222517">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+</div>
+
+<p class=FigureTitle>Телемо<span class=GramE>ст с дв</span>умя удаленными
+точками</p>
+
+<div style='mso-element:para-border-div;border:solid windowtext 1.0pt;
+mso-border-alt:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=FigureFramed style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1034" type="#_x0000_t75" style='width:540pt;height:310.5pt' o:ole="">
+ <v:imagedata src="Vidicor_BTV.files/image016.emz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=720 height=414
+src="Vidicor_BTV.files/image017.gif" v:shapes="_x0000_i1034"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1034"
+  DrawAspect="Content" ObjectID="_1232222522">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+</div>
+
+<p class=FigureTitle>Репортажная спутниковая станция (возможна одновременная передача
+нескольким компаниям)</p>
+
+<div style='mso-element:para-border-div;border:solid windowtext 1.0pt;
+mso-border-alt:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=FigureFramed style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1033" type="#_x0000_t75" style='width:500.25pt;height:287.25pt'
+ o:ole="">
+ <v:imagedata src="Vidicor_BTV.files/image018.emz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=667 height=383
+src="Vidicor_BTV.files/image019.gif" v:shapes="_x0000_i1033"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1033"
+  DrawAspect="Content" ObjectID="_1232222526">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+</div>
+
+<p class=FigureTitle>Спутниковая трансляция телекомпаниям</p>
+
+<div style='mso-element:para-border-div;border:solid windowtext 1.0pt;
+mso-border-alt:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=FigureFramed style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1035" type="#_x0000_t75" style='width:502.5pt;height:298.5pt'
+ o:ole="">
+ <v:imagedata src="Vidicor_BTV.files/image020.emz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=670 height=398
+src="Vidicor_BTV.files/image021.gif" v:shapes="_x0000_i1035"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1035"
+  DrawAspect="Content" ObjectID="_1232222528">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+</div>
+
+<p class=FigureTitle>Спутниковая трансляция зрителям на персональные компьютеры</p>
+
+<div style='mso-element:para-border-div;border:solid windowtext 1.0pt;
+mso-border-alt:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=FigureFramed style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1036" type="#_x0000_t75" style='width:483pt;height:87pt' o:ole="">
+ <v:imagedata src="Vidicor_BTV.files/image022.emz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=644 height=116
+src="Vidicor_BTV.files/image023.gif" v:shapes="_x0000_i1036"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1036"
+  DrawAspect="Content" ObjectID="_1232222530">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+</div>
+
+<p class=FigureTitle>Интернет-трансляция зрителям на персональные компьютеры</p>
+
+</div>
+
+<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:RU;mso-fareast-language:
+RU;mso-bidi-language:AR-SA;layout-grid-mode:line'><br clear=all
+style='page-break-before:always;mso-break-type:section-break'>
+</span>
+
+<div class=Section2>
+
+<div style='mso-element:para-border-div;border:solid windowtext 1.0pt;
+mso-border-alt:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=FigureFramed style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:649pt;height:507.2pt;
+ mso-position-horizontal-relative:char;mso-position-vertical-relative:line'
+ o:bordertopcolor="this" o:borderleftcolor="this" o:borderbottomcolor="this"
+ o:borderrightcolor="this" stroked="t" strokeweight="1.5pt">
+ <v:stroke linestyle="thinThin"/>
+ <v:imagedata src="Vidicor_BTV.files/image007.png" o:title="" croptop="2903f"
+  cropbottom="2419f" cropleft="1935f" cropright="1935f"/>
+ <w:wrap type="none"/>
+ <w:anchorlock/>
+</v:shape><![endif]--><![if !vml]><img width=869 height=680
+src="Vidicor_BTV.files/image024.gif" v:shapes="_x0000_s1026"><![endif]></p>
+
+</div>
+
+<p class=FigureTitle>Пример вида экрана <b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;color:red'>центрального пульта</span></b> управления
+системой</p>
+
+</div>
+
+<span style='font-size:12.0pt;mso-bidi-font-size:10.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:RU;mso-fareast-language:
+RU;mso-bidi-language:AR-SA;layout-grid-mode:line'><br clear=all
+style='page-break-before:left;mso-break-type:section-break'>
+</span>
+
+<div class=Section3>
+
+<div style='mso-element:para-border-div;border:solid windowtext 1.0pt;
+mso-border-alt:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt'>
+
+<p class=FigureFramed style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1037" type="#_x0000_t75" style='width:489.75pt;height:400.5pt'
+ o:ole="">
+ <v:imagedata src="Vidicor_BTV.files/image025.emz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=653 height=534
+src="Vidicor_BTV.files/image026.gif" v:shapes="_x0000_i1037"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1037"
+  DrawAspect="Content" ObjectID="_1232222535">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=FigureFramed style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1038" type="#_x0000_t75" style='width:390.75pt;height:123.75pt'
+ o:ole="" o:bordertopcolor="#999" o:borderleftcolor="#999" o:borderbottomcolor="#999"
+ o:borderrightcolor="#999">
+ <v:imagedata src="Vidicor_BTV.files/image027.emz" o:title=""/>
+ <w:bordertop type="single" width="4"/>
+ <w:borderleft type="single" width="4"/>
+ <w:borderbottom type="single" width="4"/>
+ <w:borderright type="single" width="4"/>
+</v:shape><![endif]--><![if !vml]><img width=523 height=167
+src="Vidicor_BTV.files/image028.gif" v:shapes="_x0000_i1038"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1038"
+  DrawAspect="Content" ObjectID="_1232222536">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=FigureFramed style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1039" type="#_x0000_t75" style='width:535.5pt;height:210pt' o:ole=""
+ o:bordertopcolor="#999" o:borderleftcolor="#999" o:borderbottomcolor="#999"
+ o:borderrightcolor="#999">
+ <v:imagedata src="Vidicor_BTV.files/image029.emz" o:title=""/>
+ <w:bordertop type="single" width="4"/>
+ <w:borderleft type="single" width="4"/>
+ <w:borderbottom type="single" width="4"/>
+ <w:borderright type="single" width="4"/>
+</v:shape><![endif]--><![if !vml]><img width=716 height=282
+src="Vidicor_BTV.files/image030.gif" v:shapes="_x0000_i1039"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1039"
+  DrawAspect="Content" ObjectID="_1232222537">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+</div>
+
+<p class=FigureTitle><!--[if gte vml 1]><v:shape id="_x0000_i1040" type="#_x0000_t75"
+ style='width:492pt;height:325.5pt' o:ole="">
+ <v:imagedata src="Vidicor_BTV.files/image031.emz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=656 height=434
+src="Vidicor_BTV.files/image032.gif" v:shapes="_x0000_i1040"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Word.Picture.8" ShapeID="_x0000_i1040"
+  DrawAspect="Content" ObjectID="_1232222539">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=FigureTitle>Окно пульта режиссера многокамерного микширования</p>
+
+<p class=MsoNormal align=center style='text-align:center;mso-hyphenate:none;
+mso-layout-grid-align:none;text-autospace:none'><b><span style='font-size:14.0pt;
+font-family:Arial'><!--[if gte vml 1]><v:shape id="_x0000_i1041" type="#_x0000_t75"
+ style='width:490.5pt;height:368.25pt'>
+ <v:imagedata src="Vidicor_BTV.files/image033.jpg" o:title="2006_06_18_KVN 039"/>
+</v:shape><![endif]--><![if !vml]><img width=654 height=491
+src="Vidicor_BTV.files/image034.jpg" v:shapes="_x0000_i1041"><![endif]><o:p></o:p></span></b></p>
+
+<p class=FigureTitle>Система «Видикор» обеспечила первый в России КВН через
+телемост «Уральские пельмени» – «Луна» (Екатеринбург-Челябинск) и его
+многоканальную <span class=SpellE>онлайн</span> трансляцию <st1:PersonName
+ProductID="в Интернет" w:st="on">в Интернет</st1:PersonName> с общим
+количеством смотревших около 4000 человек</p>
+
+<p class=Figure><!--[if gte vml 1]><v:shape id="_x0000_i1042" type="#_x0000_t75"
+ style='width:477pt;height:318pt'>
+ <v:imagedata src="Vidicor_BTV.files/image035.jpg" o:title="IMG_0056"/>
+</v:shape><![endif]--><![if !vml]><img width=636 height=424
+src="Vidicor_BTV.files/image036.jpg" v:shapes="_x0000_i1042"><![endif]><span
+lang=EN-US style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=FigureTitle>Губернатор Самарской области в студии телерадиокомпании
+«Скат» во время 5-стороннего моста на базе системы «<b style='mso-bidi-font-weight:
+normal'>Vidicor BTV</b>» (цикл передач «Открытый диалог»)</p>
+
+<p class=Body>На 1-й странице обложки – аппаратная ТРК «Скат» во время
+видеомоста, процессор «<b style='mso-bidi-font-weight:normal'>Vidicor BTV-</b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='mso-ansi-language:
+EN-US'>T</span>R</b>», вид экрана центрального пульта управления «<b
+style='mso-bidi-font-weight:normal'>Vidicor BTV-</b><b style='mso-bidi-font-weight:
+normal'><span lang=EN-US style='mso-ansi-language:EN-US'>C</span></b>»</p>
+
+<div align=right>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=340
+ style='width:9.0cm;background:#FFFFCC;border-collapse:collapse;border:none;
+ mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:480;mso-padding-alt:
+ 0cm 5.4pt 0cm 5.4pt;mso-border-insideh:.5pt solid windowtext;mso-border-insidev:
+ .5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td width=340 valign=top style='width:9.0cm;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=Attributes>Научно-производственный центр «Видикор»<span lang=EN-US
+  style='mso-ansi-language:EN-US'><o:p></o:p></span></p>
+  <p class=Attributes><span lang=EN-US style='mso-ansi-language:EN-US'><a
+  href="http://vidicor.ru/">http://vidicor.ru</a><o:p></o:p></span></p>
+  <p class=Attributes><span lang=EN-US style='mso-ansi-language:EN-US'><a
+  href="mailto:info@vidicor.ru">info@vidicor.ru</a><o:p></o:p></span></p>
+  <p class=Attributes>Тел.: (343) 372-0640<span lang=EN-US style='mso-ansi-language:
+  EN-US'><o:p></o:p></span></p>
+  <p class=Attributes>Факс: (343) 349-1885<span lang=EN-US style='mso-ansi-language:
+  EN-US'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=Body>Версия документа от <!--[if supportFields]><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>TIME \@ &quot;dd/MM/yyyy&quot; <span
+style='mso-element:field-separator'></span><![endif]--><span style='mso-no-proof:
+yes'>05/02/2007</span><!--[if supportFields]><span style='mso-element:field-end'></span><![endif]-->.
+Адрес документа – <a href="http://vidicor.ru/Vidicor_BTV.doc">http://<span
+lang=EN-US style='mso-ansi-language:EN-US'>vidicor</span>.<span lang=EN-US
+style='mso-ansi-language:EN-US'>ru</span>/<span lang=EN-US style='mso-ansi-language:
+EN-US'>Vidicor</span>_<span lang=EN-US style='mso-ansi-language:EN-US'>BTV</span>.<span
+lang=EN-US style='mso-ansi-language:EN-US'>doc</span></a></p>
+
+</div>
+
+</body>
+
+</html>
